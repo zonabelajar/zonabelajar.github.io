@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="id" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contoh Soal C++ Kondisi Beserta Jawabannya - BELAJAR</title>
+    <meta name="description" content="Contoh Soal C++ Kondisi Beserta Jawabannya, , , , , , , 0, , , , , , 0, contoh-soal-c-kondisi-beserta-jawabannya, BELAJAR" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contoh Soal C++ Kondisi Beserta Jawabannya - BELAJAR" />
+    <meta property="og:description" content="Contoh Soal C++ Kondisi Beserta Jawabannya, , , , , , , 0, , , , , , 0, contoh-soal-c-kondisi-beserta-jawabannya, BELAJAR" />
+    <meta property="og:site_name" content="BELAJAR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contoh Soal C++ Kondisi Beserta Jawabannya - BELAJAR" />
+    <meta name="twitter:description" content="Contoh Soal C++ Kondisi Beserta Jawabannya, , , , , , , 0, , , , , , 0, contoh-soal-c-kondisi-beserta-jawabannya, BELAJAR" />
+    <link rel='stylesheet' id='generate-style-css' href='https://zonabelajar.github.io/css/main.min.css'?ver=3.2.4'
+        media='all' />
+    <link rel='stylesheet' id='ez-toc-css' href='https://zonabelajar.github.io/css/screen.min.css'?ver=2.0.40' media='all' />
+    <style id='generate-style-inline-css'>
+        body {
+            background-color: #f7f7f7;
+            color: #222222;
+        }
+
+        a {
+            color: #1e73be;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: #000000;
+        }
+
+        .wp-block-group__inner-container {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .generate-back-to-top {
+            font-size: 20px;
+            border-radius: 3px;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            z-index: 10;
+            transition: opacity 300ms ease-in-out;
+            opacity: 0.1;
+            transform: translateY(1000px);
+        }
+
+        .generate-back-to-top__show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .navigation-search {
+            position: absolute;
+            left: -99999px;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: 20;
+            width: 100%;
+            top: 0;
+            transition: opacity 100ms ease-in-out;
+            opacity: 0;
+        }
+
+        .navigation-search.nav-search-active {
+            left: 0;
+            right: 0;
+            pointer-events: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .navigation-search input[type="search"] {
+            outline: 0;
+            border: 0;
+            vertical-align: bottom;
+            line-height: 1;
+            opacity: 0.9;
+            width: 100%;
+            z-index: 20;
+            border-radius: 0;
+            -webkit-appearance: none;
+            height: 60px;
+        }
+
+        .navigation-search input::-ms-clear {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-ms-reveal {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
+        .navigation-search input::-webkit-search-decoration,
+        .navigation-search input::-webkit-search-cancel-button,
+        .navigation-search input::-webkit-search-results-button,
+        .navigation-search input::-webkit-search-results-decoration {
+            display: none;
+        }
+
+        .gen-sidebar-nav .navigation-search {
+            top: auto;
+            bottom: 0;
+        }
+
+        :root {
+            --contrast: #222222;
+            --contrast-2: #575760;
+            --contrast-3: #b2b2be;
+            --base: #f0f0f0;
+            --base-2: #f7f8f9;
+            --base-3: #ffffff;
+            --accent: #1e73be;
+        }
+
+        .has-contrast-color {
+            color: var(--contrast);
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--contrast);
+        }
+
+        .has-contrast-2-color {
+            color: var(--contrast-2);
+        }
+
+        .has-contrast-2-background-color {
+            background-color: var(--contrast-2);
+        }
+
+        .has-contrast-3-color {
+            color: var(--contrast-3);
+        }
+
+        .has-contrast-3-background-color {
+            background-color: var(--contrast-3);
+        }
+
+        .has-base-color {
+            color: var(--base);
+        }
+
+        .has-base-background-color {
+            background-color: var(--base);
+        }
+
+        .has-base-2-color {
+            color: var(--base-2);
+        }
+
+        .has-base-2-background-color {
+            background-color: var(--base-2);
+        }
+
+        .has-base-3-color {
+            color: var(--base-3);
+        }
+
+        .has-base-3-background-color {
+            background-color: var(--base-3);
+        }
+
+        .has-accent-color {
+            color: var(--accent);
+        }
+
+        .has-accent-background-color {
+            background-color: var(--accent);
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        body {
+            line-height: 1.5;
+        }
+
+        .entry-content>[class*="wp-block-"]:not(:last-child) {
+            margin-bottom: 1.5em;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            font-size: 14px;
+        }
+
+        .sidebar .widget,
+        .footer-widgets .widget {
+            font-size: 17px;
+        }
+
+        @media (max-width:768px) {
+            h1 {
+                font-size: 31px;
+            }
+
+            h2 {
+                font-size: 27px;
+            }
+
+            h3 {
+                font-size: 24px;
+            }
+
+            h4 {
+                font-size: 22px;
+            }
+
+            h5 {
+                font-size: 19px;
+            }
+        }
+
+        .top-bar {
+            background-color: #636363;
+            color: #ffffff;
+        }
+
+        .top-bar a {
+            color: #ffffff;
+        }
+
+        .top-bar a:hover {
+            color: #303030;
+        }
+
+        .site-header {
+            background-color: #ffffff;
+        }
+
+        .main-title a,
+        .main-title a:hover {
+            color: #222222;
+        }
+
+        .site-description {
+            color: #757575;
+        }
+
+        .main-navigation,
+        .main-navigation ul ul {
+            background-color: #ed4250;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        button.menu-toggle:hover,
+        button.menu-toggle:focus {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .navigation-search input[type="search"],
+        .navigation-search input[type="search"]:active,
+        .navigation-search input[type="search"]:focus,
+        .main-navigation .main-nav ul li.search-item.active>a,
+        .main-navigation .menu-bar-items .search-item.active>a {
+            color: #ffffff;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation ul ul {
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li a {
+            color: #ffffff;
+        }
+
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul ul li.sfHover:not([class*="current-menu-"])>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .main-navigation .main-nav ul ul li[class*="current-menu-"]>a {
+            color: #fcd9d6;
+            background-color: #c42f2f;
+        }
+
+        .separate-containers .inside-article,
+        .separate-containers .comments-area,
+        .separate-containers .page-header,
+        .one-container .container,
+        .separate-containers .paging-navigation,
+        .inside-page-header {
+            background-color: #ffffff;
+        }
+
+        .entry-title a {
+            color: #222222;
+        }
+
+        .entry-title a:hover {
+            color: #55555e;
+        }
+
+        .entry-meta {
+            color: #595959;
+        }
+
+        .sidebar .widget {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets {
+            background-color: #ffffff;
+        }
+
+        .footer-widgets .widget-title {
+            color: #000000;
+        }
+
+        .site-info {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        .site-info a {
+            color: #ffffff;
+        }
+
+        .site-info a:hover {
+            color: #d3d3d3;
+        }
+
+        .footer-bar .widget_nav_menu .current-menu-item a {
+            color: #d3d3d3;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        input[type="tel"],
+        input[type="number"],
+        textarea,
+        select {
+            color: #666666;
+            background-color: #fafafa;
+            border-color: #cccccc;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="url"]:focus,
+        input[type="password"]:focus,
+        input[type="search"]:focus,
+        input[type="tel"]:focus,
+        input[type="number"]:focus,
+        textarea:focus,
+        select:focus {
+            color: #666666;
+            background-color: #ffffff;
+            border-color: #bfbfbf;
+        }
+
+        button,
+        html input[type="button"],
+        input[type="reset"],
+        input[type="submit"],
+        a.button,
+        a.wp-block-button__link:not(.has-background) {
+            color: #ffffff;
+            background-color: #55555e;
+        }
+
+        button:hover,
+        html input[type="button"]:hover,
+        input[type="reset"]:hover,
+        input[type="submit"]:hover,
+        a.button:hover,
+        button:focus,
+        html input[type="button"]:focus,
+        input[type="reset"]:focus,
+        input[type="submit"]:focus,
+        a.button:focus,
+        a.wp-block-button__link:not(.has-background):active,
+        a.wp-block-button__link:not(.has-background):focus,
+        a.wp-block-button__link:not(.has-background):hover {
+            color: #ffffff;
+            background-color: #3f4047;
+        }
+
+        a.generate-back-to-top {
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+        }
+
+        a.generate-back-to-top:hover,
+        a.generate-back-to-top:focus {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #ffffff;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-bar-item:hover>a,
+            .main-navigation .menu-bar-item.sfHover>a {
+                background: none;
+                color: #ffffff;
+            }
+        }
+
+        .nav-below-header .main-navigation .inside-navigation.grid-container,
+        .nav-above-header .main-navigation .inside-navigation.grid-container {
+            padding: 0px 20px 0px 20px;
+        }
+
+        .site-main .wp-block-group__inner-container {
+            padding: 40px;
+        }
+
+        .separate-containers .paging-navigation {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .entry-content .alignwide,
+        body:not(.no-sidebar) .entry-content .alignfull {
+            margin-left: -40px;
+            width: calc(100% + 80px);
+            max-width: calc(100% + 80px);
+        }
+
+        .rtl .menu-item-has-children .dropdown-menu-toggle {
+            padding-left: 20px;
+        }
+
+        .rtl .main-navigation .main-nav ul li.menu-item-has-children>a {
+            padding-right: 20px;
+        }
+
+        @media (max-width:768px) {
+
+            .separate-containers .inside-article,
+            .separate-containers .comments-area,
+            .separate-containers .page-header,
+            .separate-containers .paging-navigation,
+            .one-container .site-content,
+            .inside-page-header {
+                padding: 30px;
+            }
+
+            .site-main .wp-block-group__inner-container {
+                padding: 30px;
+            }
+
+            .inside-top-bar {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-header {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .widget-area .widget {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .footer-widgets-container {
+                padding-top: 30px;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .inside-site-info {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+
+            .entry-content .alignwide,
+            body:not(.no-sidebar) .entry-content .alignfull {
+                margin-left: -30px;
+                width: calc(100% + 60px);
+                max-width: calc(100% + 60px);
+            }
+
+            .one-container .site-main .paging-navigation {
+                margin-bottom: 20px;
+            }
+        }
+
+        /* End cached CSS */
+        .is-right-sidebar {
+            width: 30%;
+        }
+
+        .is-left-sidebar {
+            width: 30%;
+        }
+
+        .site-content .content-area {
+            width: 70%;
+        }
+
+        @media (max-width:768px) {
+
+            .main-navigation .menu-toggle,
+            .sidebar-nav-mobile:not(#sticky-placeholder) {
+                display: block;
+            }
+
+            .main-navigation ul,
+            .gen-sidebar-nav,
+            .main-navigation:not(.slideout-navigation):not(.toggled) .main-nav>ul,
+            .has-inline-mobile-toggle #site-navigation .inside-navigation>*:not(.navigation-search):not(.main-nav) {
+                display: none;
+            }
+
+            .nav-align-right .inside-navigation,
+            .nav-align-center .inside-navigation {
+                justify-content: space-between;
+            }
+        }
+    </style>
+    <link rel="icon" href="https://zonabelajar.github.io/img/cropped-soalbelajar-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://zonabelajar.github.io/img/cropped-soalbelajar-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://zonabelajar.github.io/img/cropped-soalbelajar-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://zonabelajar.github.io/img/cropped-soalbelajar-270x270.png" />
+</head>
+
+<body
+    class="home blog wp-custom-logo wp-embed-responsive right-sidebar nav-above-header separate-containers nav-search-enabled nav-aligned-center header-aligned-center dropdown-hover"
+    itemtype="https://schema.org/Blog" itemscope>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-dark-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0.49803921568627" />
+                    <feFuncG type="table" tableValues="0 0.49803921568627" />
+                    <feFuncB type="table" tableValues="0 0.49803921568627" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-grayscale">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-red">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 1" />
+                    <feFuncG type="table" tableValues="0 0.27843137254902" />
+                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-midnight">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0 0" />
+                    <feFuncG type="table" tableValues="0 0.64705882352941" />
+                    <feFuncB type="table" tableValues="0 1" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-magenta-yellow">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.78039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.94901960784314" />
+                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-purple-green">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" />
+                    <feFuncG type="table" tableValues="0 1" />
+                    <feFuncB type="table" tableValues="0.44705882352941 0.4" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
+        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+        <defs>
+            <filter id="wp-duotone-blue-orange">
+                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
+                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                    <feFuncR type="table" tableValues="0.098039215686275 1" />
+                    <feFuncG type="table" tableValues="0 0.66274509803922" />
+                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" />
+                    <feFuncA type="table" tableValues="1 1" />
+                </feComponentTransfer>
+                <feComposite in2="SourceGraphic" operator="in" />
+            </filter>
+        </defs>
+    </svg><a class="screen-reader-text skip-link" href="#content" title="Langsung ke isi">Langsung ke isi</a>
+    <nav class="main-navigation nav-align-center has-menu-bar-items sub-menu-right" id="site-navigation"
+        aria-label="Utama" itemtype="https://schema.org/SiteNavigationElement" itemscope>
+        <div class="inside-navigation grid-container">
+            <form method="get" class="search-form navigation-search" action="/">
+                <input type="search" class="search-field" value="" name="q" title="Cari" />
+            </form> <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                <span class="gp-icon icon-menu-bars"><svg viewBox="0 0 512 512" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                        <path
+                            d="M0 96c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24zm0 160c0-13.255 10.745-24 24-24h464c13.255 0 24 10.745 24 24s-10.745 24-24 24H24c-13.255 0-24-10.745-24-24z" />
+                    </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="1em" height="1em">
+                        <path
+                            d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                    </svg></span><span class="mobile-menu">Menu</span> </button>
+            <div id="primary-menu" class="main-nav">
+                <ul id="menu-soal-belajar" class=" menu sf-menu">
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1"><a
+                            href="https://zonabelajar.github.io">Home</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2"><a
+                            href="https://zonabelajar.github.io/page/dmca.html">DMCA</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3"><a
+                            href="https://zonabelajar.github.io/page/privacy-policy.html">Privacy Policy</a></li>
+                </ul>
+                </ul>
+            </div>
+            <div class="menu-bar-items"><span class="menu-bar-item search-item"><a aria-label="Buka Kolom Pencarian"
+                        href="#"><span class="gp-icon icon-search"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M208 48c-88.366 0-160 71.634-160 160s71.634 160 160 160 160-71.634 160-160S296.366 48 208 48zM0 208C0 93.125 93.125 0 208 0s208 93.125 208 208c0 48.741-16.765 93.566-44.843 129.024l133.826 134.018c9.366 9.379 9.355 24.575-.025 33.941-9.379 9.366-24.575 9.355-33.941-.025L337.238 370.987C301.747 399.167 256.839 416 208 416 93.125 416 0 322.875 0 208z" />
+                            </svg><svg viewBox="0 0 512 512" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                width="1em" height="1em">
+                                <path
+                                    d="M71.029 71.029c9.373-9.372 24.569-9.372 33.942 0L256 222.059l151.029-151.03c9.373-9.372 24.569-9.372 33.942 0 9.372 9.373 9.372 24.569 0 33.942L289.941 256l151.03 151.029c9.372 9.373 9.372 24.569 0 33.942-9.373 9.372-24.569 9.372-33.942 0L256 289.941l-151.029 151.03c-9.373 9.372-24.569 9.372-33.942 0-9.372-9.373-9.372-24.569 0-33.942L222.059 256 71.029 104.971c-9.372-9.373-9.372-24.569 0-33.942z" />
+                            </svg></span></a></span></div>
+        </div>
+    </nav>
+    <header class="site-header grid-container" id="masthead" aria-label="Situs"
+        itemtype="https://schema.org/WPHeader" itemscope>
+        <div class="inside-header grid-container">
+            <h1 class="site-logo">
+                <a href="https://zonabelajar.github.io" rel="home"> BELAJAR</a>
+            </h1>
+        </div>
+    </header>
+
+    <div class="site grid-container container hfeed" id="page">
+        <div class="site-content" id="content">
+            <div class="content-area" id="primary">
+                    <main class="site-main" id="main">
+        <article id="post-1327" class="post-1327 post type-post status-publish format-standard hentry category-info"
+            itemtype="https://schema.org/CreativeWork" itemscope="">
+            <div class="inside-article">
+                <header class="entry-header" aria-label="Konten">
+                    <h1 class="entry-title" itemprop="headline">Contoh Soal C++ Kondisi Beserta Jawabannya</h1>
+                    <div class="entry-meta">
+                       <span
+                            class="byline">oleh <span class="author vcard" itemprop="author"
+                                itemtype="https://schema.org/Person" itemscope=""><span class="author-name"
+                                    itemprop="name">loismelovielziya</span></span></span>
+                    </div>
+                </header>
+                <div class="entry-content" itemprop="text">
+                    <div style="text-align: center">
+                        <img src="https://tse1.mm.bing.net/th?q=Contoh+Soal+C%2B%2B+Kondisi+Beserta+Jawabannya" alt="Contoh Soal C++ Kondisi Beserta Jawabannya">
+                    </div>
+                    <p></p>
+                    <p>C. Kerjakan soal-soal berikut!1. Jelaskan maksud unsur kenangan padakonsep Sapta Pesona dan sebutkan contohkegiatannya!2. Desa Mentari di daerah dataran rendahdilalui sungai dengan air jernih. Pemerintahsetempat mengembangkan sungai tersebutsebagai objek wisata. Sebutkan tigajenis usaha yang sesuai dikembangkanmasyarakat setempat berdasarkan kondisitersebut!3. Mengapa kegiatan pariwisata dapatmeningkatkan pendapatan devisa negara?4.Salah satu sumber pendapatan negaraFilipina berasal dari kegiatan wisata bahari.Jelaskan faktor pendorong berkembangnyawisata bahari di negara tersebut!5. Jelaskan kegiatan ekonomi utama negaraLaos beserta faktor geografisyangmendorong perkembangan kegiatantersebut!plis jawab poin 29 jangan asal2an​</p>
+                    <div id="ez-toc-container"
+                        class="ez-toc-v2_0_40 counter-hierarchy ez-toc-counter ez-toc-light-blue ez-toc-container-direction">
+                        <div class="ez-toc-title-container">
+                            <p class="ez-toc-title">Daftar Isi</p>
+                            <span class="ez-toc-title-toggle"><a href="#"
+                                    class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"
+                                    area-label="ez-toc-toggle-icon-1"><label for="item-63b392361c4a0"
+                                        aria-label="Table of Content"><span
+                                            style="display: flex;align-items: center;width: 35px;height: 30px;justify-content: center;direction:ltr;"><svg
+                                                style="fill: #999;color:#999" xmlns="http://www.w3.org/2000/svg"
+                                                class="list-377408" width="20px" height="20px" viewBox="0 0 24 24"
+                                                fill="none">
+                                                <path
+                                                    d="M6 6H4v2h2V6zm14 0H8v2h12V6zM4 11h2v2H4v-2zm16 0H8v2h12v-2zM4 16h2v2H4v-2zm16 0H8v2h12v-2z"
+                                                    fill="currentColor"></path>
+                                            </svg><svg style="fill: #999;color:#999" class="arrow-unsorted-368013"
+                                                xmlns="http://www.w3.org/2000/svg" width="10px" height="10px"
+                                                viewBox="0 0 24 24" version="1.2" baseProfile="tiny">
+                                                <path
+                                                    d="M18.2 9.3l-6.2-6.3-6.2 6.3c-.2.2-.3.4-.3.7s.1.5.3.7c.2.2.4.3.7.3h11c.3 0 .5-.1.7-.3.2-.2.3-.5.3-.7s-.1-.5-.3-.7zM5.8 14.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.5-.3.7s.1.5.3.7z">
+                                                </path>
+                                            </svg></span></label><input type="checkbox" id="item-63b392361c4a0"></a></span>
+                        </div>
+                        <nav>
+                            <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#c-kerjakan-soal-soal-berikut1-jelaskan-maksud-unsur-kenangan-padakonsep-sapta-pesona-dan-sebutkan-contohkegiatannya2-desa-mentari-di-daerah-dataran-rendahdilalui-sungai-dengan-air-jernih-pemerin">1.
+                                            C. Kerjakan soal-soal berikut!1. Jelaskan maksud unsur kenangan padakonsep Sapta Pesona dan sebutkan contohkegiatannya!2. Desa Mentari di daerah dataran rendahdilalui sungai dengan air jernih. Pemerintahsetempat mengembangkan sungai tersebutsebagai objek wisata. Sebutkan tigajenis usaha yang sesuai dikembangkanmasyarakat setempat berdasarkan kondisitersebut!3. Mengapa kegiatan pariwisata dapatmeningkatkan pendapatan devisa negara?4.Salah satu sumber pendapatan negaraFilipina berasal dari kegiatan wisata bahari.Jelaskan faktor pendorong berkembangnyawisata bahari di negara tersebut!5. Jelaskan kegiatan ekonomi utama negaraLaos beserta faktor geografisyangmendorong perkembangan kegiatantersebut!plis jawab poin 29 jangan asal2an​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#b-untuk-mengasah-dan-menguji-kemampuan-reflektif-kalian-coba-berikanjawaban-soal-soal-melengkapi-berikut-ini-dengan-cepat-dan-tepat1-kita-harus-menghemat-air-mulai-dari-sekarang-walaupun-air-tida">2.
+                                            B. Untuk mengasah dan menguji kemampuan reflektif kalian, coba berikanjawaban soal-soal melengkapi berikut ini dengan cepat dan tepat!1. Kita harus menghemat air mulai dari sekarang. Walaupun air tidak akan habis karena memiliki daur, tetapi ketersediaannya semakin berkurang. Hal ini disebabkan terjadinya pencemaran air. Penghematan air merupakan salah satu usaha yang dapat dilakukan supaya air dapat digunakan sesuai kebutuhan.Informasi yang terdapat pada teks tersebut adalah mengenai............Paragraf berikut untuk menjawab soal nomor 2 dan 3.Dalam rangka memperingati Hari Sumpah Pemuda, Pemerintah Kabupaten Aceh Tengah menggelar pentas seni lintas budaya. 1) Acara tersebut diadakan di lapangan Sanggamara.2) Acara dimeriahkan oleh para peserta pentas seni lintas budaya.3) Beragam kesenian ditampilkan untuk memeriahkan Hari Sumpah pemuda.4)2. Peristiwa utama yang terjadi pada teks ditunjukkan oleh kalimat nomor......3. Informasi penting dari teks tersebut adalah..........Paragraf berikut untuk menjawab soal nomor 4 dan 5.Indonesia merupakan paru-paru dunia kedua. Indonesia memiliki hutan lebat yang memberikan banyak oksigen. Di negara ini terdapat tumbuh-tumbuhan dan hewan yang khas, seperti matoa, kayu cendana, burung cenderawasih, orang utan, dan komodo.4. Apa yang dihasilkan hutan lebat......5. Pernyataan yang sesuai dengan isi teks tersebut adalah......C. Untuk mengasah cara berpikir kalian secara rasional, logis, kritis, dan analitis, coba berikan jawaban soal-soal essay berikut ini dengan kemampuan berpikir kalian sendiri!1. Ibu membeli obat di apotek.jelaskan arti kata apotek!Jawab:2. Buatlah 3 (tiga) contoh kalimat tanya dengan kata "siapa"!Jawab:3. Sebutkan beberapa tindakan yang dapat kita lakukan untuk ikut membantu mengurangi krisis air bersih!jawab:4. Bacalah teks berikut!Banjir melanda puluhan rumah di Desa Delas, Kecamatan Air Gegas, Kabupaten Bangka Selatan, Kepulauan Bangka Belitung. Banjir juga mengakibatkan arus lalu lintas tersendat. Sedikitnya 47 unit rumah warga terendam akibat alur sungai meluap setelah hujan deras. Banjir yang berasal dari alur sungai ini meluber cukup deras menerjang puluhan rumah warga di sekitarnya dengan kedalaman air mencapai 80 sentimeter. Banjir membuat arus lalu lintas tersendat. Melihat kondisi ini pihak kepolisian dibantu warga sekitar membuat barikade untuk menuntun kendaraan yang melintas agar tidak terjebak di tengah kubangan air.Tuliskan peristiwa yang terdapat pada teks tersebut!Jawab:5. Tulislah 3 (tiga) contoh kalimat tanya dengan kata "di mana"!Jawab:​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#sekolah-menengah-pertama-smppenilaian-akhir-semester-2mata-pelajarankelasharitanggalwaktuilmu-pengetahuan-sosialviii-delapansenin-15-juni-2020120-menitpetunjuk-umum-1-2-3-45-6-tulislah-lebih-d">3.
+                                            SEKOLAH MENENGAH PERTAMA (SMP)PENILAIAN AKHIR SEMESTER 2Mata PelajaranKelasHari/TanggalWaktuILMU PENGETAHUAN SOSIALVIII (delapan)Senin, 15 Juni 2020120 menit:PETUNJUK UMUM :1.2.3.45.6.Tulislah lebih dahulu nomor peserta Anda pada lembar jawaban yang telah disediakan.Periksalah soal-soal sebelum Anda menjawabnya, laporkan kepada Pengawas PAS II jika terdapat tulisan yang kurang jelasjumlah soal kurangJumlah soal sebanyak 35 butir, terdiri dari 30 pilihan ganda, 5 uraian, dan semua harus dijawab.Dahulukan mengerjakan soal-soal yang Anda anggap mudah.Kerjakan pada lembar jawaban yang disediakan, dengan menggunakan bolpoint/ pulpen yang bertinta biru atau hitam.Apabila ada dua jawaban yang Anda jawab ternyata salah dan Anda ingin memperbaikinya, coretlah dengan dua garis lurpada lembar jawaban Anda yang salah, kemudian beri tanda silang (x) pada huruf yang Anda anggap benar.Contoh Pilihan semula :X b c dDibetulkan *b CX7.8.Periksalah pekerjaan Anda sebelum diserahkan kepada Pengawas.A. Pilihlah jawaban yang paling tepat.1. Pelaksanaan Politik Etis yang paling dirasakan dalam pergerakan nasional bangsa Indonesia adalah ...A. Pendidikan dengan munculnya golongan terpelajarB.Irigasi telah memajukan pertanian khususnya di JawaC. Perpindahan penduduk telah mengangkat kesejahteraan kaum miskinD.Kemajuan ekonomi akibat politik kolonial liberal2. Berikut ini yang bukan ruang lingkup perdagangan antar negara adalah ...A. Perpindahan barang dan jasa dari suatu negara ke negara yang lainB. Perpindahan modal melalui investasi asing dari luar negeri ke dalam negeriC.Perpindahan tenaga kerja dari suatu negara ke negara lainD. Perpindahan data tentang pangsa pasar dari luar negeri3. Pelaksanaan Tanam Paksa telah menghancurkan perekonomian Indonesia dan merupakan beban yang berat karena...A Rakyat dipaksa menyerahkan 1/5 tanah pertanian pada BelandaB. Rakyat tidak punya waktu lagi mengerjakan tanah pertaniannya untuk memenuhi kebutuhannya sendiriC. Dalam praktiknya tanah yang harus ditanami tanaman industri hampir 2/3 dari tanah yang terbaikD. Selain menanami 1/5 tanaman, wajib juga harus menyerahkan 1/5 dari hari kerjanya4. Berikut ini yang bukan faktor yang memengaruhi ekspor baik dari dalam ataupun dari luar negeri adalah ...A. Keadaan pasar luar negeriB. Keuletan eksportir untuk menangkap peluang pasarC. Keuletan importir untuk memenangi pangsa pasarD. Kondisi sosial, ekonomi, dan politik suatu negara5. Menjual barang ke luar negeri dengan harga yang lebih murah dari dalam negeri dalam perdagangan antarnegara disebut ..A. ProteksionismeB. DeregulasiC.DumpingD. Devaluasi6. Berikut ini yang bukan karakteristik perjuangan bangsa Indonesia sebelum abad XX, adalah ...A. Tidak tergantung pada satu pemimpinB. Menggunakan persenjataan tradisionalC. Bersifat lokal, kedaerahanD. Kurang menggunakan siasat perjuangan diplomasi7. Berikut ini merupakan kebijaksanaan pemerintah dalam impor, adalah ...A. Menetapkan larangan imporB. Membebaskan bea atau tarif imporC. Mengadakan devaluasiD. Menetapkan kuota​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tugas-ppkn-5dikerjakan-di-buku-latihan-ppkn-dan-ditulis-soalnya1-berikut-ini-merupakan-contoh-pembiasaan-perilaku-sesuai-nilai-nilai-pancasila-dalam-lingkungan-kehidupan-bermasyarakat-ialah-a">4.
+                                            TUGAS PPKn 5:
+Dikerjakan di Buku Latihan PPKn, dan diTulis Soalnya!
+1. Berikut ini merupakan contoh pembiasaan perilaku sesuai nilai-nilai Pancasila dalam lingkungan kehidupan bermasyarakat ialah...
+A. suka mengalah dalam pergaulan
+B. mengembangkan sikap toleransi 
+C. mengikuti kegiatan para pemuda
+D. saling membantu antar anggota keluarga
+2. Koperasi merupakan salah satu contoh wujud nyata perwujudan dari nilai-nilai Pancasila yang mencerminkan sikap kekeluargaan dan kegotongroyongan dalam kehidupan bermasyarakat dan bernegara di bidang...
+A. sosial
+B. budaya
+C. ekonomi
+D. usaha kecil menengah
+3. Keterbukaan ideologi Pancasila yang mampu berinteraksi secara dinamis dan mampu menyesuaikan diri dengan perkembangan zaman mengandung nilai praksis yaitu...
+A. hakikat dari kelima sila Pancasila
+B. nilai dasar yang bersifat tetap dan melekat pada kelangsungan hidup negara
+C. realisasi dari pengalaman nyata dalam kehidupan sehari-hari
+D. penjabaran lebih lanjut dari nilai dasar Pancasila
+4. Saat ini ancaman terhadap Pancasila sebagai dasar negara tidak lagi dihadapkan pada pemberontakan yang ingin mengganti Pancasila dengan ideologi lain melainkan pada kondisi kehidupan masyarakat Indonesia yang diwarnai oleh kehidupan yang serba bebas tanpa batas seperti kebebasan berekspresi dan sebagainya dimana di satu sisi dapat memacu kreativitas masyarakat, tapi di sisi lain bisa mendatangkan dampak negatif bagi bangsa Indonesia.
+Sikap yang konstruktif sebagai warga negara dalam menyikapi hal tersebut adalah...
+A. melakukan sesuatu sesuai yang haknya
+B. menutup diri terhadap perubahan
+C. hidup bebas tanpa ada yang membatasi
+D. menjaga diri dari kebebasan tanpa batas
+5. Perhatikan wacana berikut!
+Pemilu di Indonesia merupakan salah satu contoh perwujudan nilai-nilai Pancasila dalam bidang politik yang secara periodik menjadi sarana bagi masyarakat Indonesia untuk memilih calon-calon wakil mereka baik di eksekutif maupun legislatif. Proses  pemilu dilaksanakan dengan aturan yang jelas dari lembaga penyelenggara pemilu KPU dengan menerapkan asas langsung, umum, bebas, rahasia, jujur dan adil (luber jurdil) baik bagi peserta pemilu maupun pemilih untuk menyelenggarakan pemilu yang mampu menghasilkan pemimipin yang berkompeten dan dipercaya oleh masyarakat dengan tertib dan damai.
+Kesimpulan yang tepat dari informasi yang disampaikan dalam wacana tersebut adalah...
+A. menjamin bahwa di Indonesia terdapat lembaga penyelenggara pemilu, lembaga legislatif dan lembaga eksekutif yang dipilih langsung oleh masyarakat melalui pemilu
+B. menjamin terselenggaranya proses pergantian kepemimpinan secara teratur, bukan atas dasar keturunan, mengangkat diri sendiri atau perebutan kekuasaan
+C. menjamin terselenggaranya pemilu pertama di Indonesia tahun 1955 yang berasas langsung, umum, bebas, rahasia, jujur dan adil
+D. menjamin terselenggaranya pemilu dengan asas langsung, umum, bebas, rahasia, jujur dan adil untuk memilih anggota legislatif, eksekutif dan yudikatif
+Tolong di jawab yah mau di kumpul hari ini:)!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-konflik-yang-dipicu-oleh-kelompok-teroris-menebar-teror-bom-hukum-meresahkan-masyarakat-membuat-repot-aparat-keamanan-solusi-yang-tepat-untuk-mengatasi-kondisi-tersebut-dapat-melaluia-mediasi-b">5.
+                                            1. konflik yang dipicu oleh kelompok teroris menebar teror bom hukum meresahkan masyarakat, membuat repot aparat keamanan solusi yang tepat untuk mengatasi kondisi tersebut dapat melaluiA.  mediasi B. ajudikasi C. akomodasi D. arbitrasi 2. konflik antara pembantu rumah tangga dan majikan kerap terjadi, yang berujung meja hijau. pemberian upahyang tidak sesuai kesepakatan kadang menjadi alasan, wacana di atas menggambarkan bahwa Konflik terjadi karena A. faktor perbedaan budaya B. perbedaan kepribadianC. perbedaan kesepakatanD. perbedaan kepentingan 3.  proses sosial dimana orang perorangan atau kelompok manusia berusaha untuk memenuhi tujuannya dengan jalan. menentang pihak lawan yang disertai dengan ancaman atau kekerasan, definisi ini dikemukakanA. Soerjono SoekantoB. Selo SomardjoC. Robert bersteinD. Robert MZ Lawang4.  reformasi tahun 1988 menyisakan masalah sosial yakni kelompok pro dan kontra konflik antara kedua kelompok tersebut disebabkan oleh adanya perbedaanA. kepentingan kelompok B. sistem pemerintahC. kesenjangan sosial D. jenis pekerjaan 5.  konflik yang diikuti dengan tindak kekerasan sering terjadi ketika polisi pamong praja menangani masalah penggusuran pedagang kaki lima yang berjualan di atas badan trotoar Jalan terjadinya konflik tersebut disebabkan oleh faktorA. perubahan yang terlalu cepatB. tuntutan kebutuhan ekonomi C. kebijakan politik dan ideologi D. perbedaan kepentingan dan tujuan6. tawuran atau konflik antara dua komunitas seringkali tidak dapat diselesaikan melalui forum nonformal tingkat RT/RW. akhirnya aparat kepolisian turun tangan dan bertindak sebagai pihak ketiga yang memfasilitasi perundingan dan konflik dapat terselesaikan bentuk akomodasi tersebut dinamakan A. kompetisi B. kolaborasi C. koersiD. arbitrasi 7. konflik yang kadang kadang terjadi antara generasi muda dengan generasi tua ditandai adanya perbedaan pandangan, sikap tingkah laku dan tutur kata. contoh konflik antargenerasi tersebut umumnya disebabkan oleh faktorA. umur/usia B. kepentingan C. perubahan sosialD. posisi masyarakat dalam 8. bentuk akomodasi konflik yang dibawa ke pengadilan disebutA. mediasi B. arbitrasi C. ajudikasi D. koersi&lt;br 9. konflik adalah untuk memperoleh nilai status kekuasaan, dimana tujuan dari mereka yang berkonflik, tidak hanya memperoleh keuntungan, tetapi untuk menunjukkan keinginannya hal ini dikemukakan oleh A.Robert MZ Lawang B. Soerjono Soekanto C. Pitirim A Sorokin D. Samuel koening 10. konflik antara kelompok buruh dengan pengusaha dapat dikategorikan sebagai bentuk konflik A. rasial B. politik C. pribadi D. kepentingan11. antara golongan tua sering terjadi ketidaksepahaman dengan golongan muda terkait dengan permasalahan kemajuan zaman. maka mereka kadang terlibat konflik yang disebabkan oleh A. perbedaan kepentingan B. perbedaan cara pandangan C. perbedaan usia D. perbedaan tingkat pendidikan12. konflik yang terjadi antara pemerintah yang sah dengan kaum oposisi umumnya dalam bentuk A. horizontalB. vertikal C. Politik D. kelas sosial13. salah satu manfaat dari konflik adalahA. konflik dapat menyelesaikan persoalan yang ada B. konflik dapat mengurangi ketegangan yang berkepanjanganC. dapat mempengaruhi pihak yang salah dan yang benar D. dapat memperkuat persatuan dan kesatuan kelompok14. yang dimaksud dengan konflik konstruktif adalah A. konflik yang melahirkan kebaikan-kebaikan B. konflik yang terjadi antara dua organisasi atau lebih C. konflik yang sulit menemukan jalan keluarnya D. konflik yang berakibat kerusakan-kerusakan 15. apabila dalam suatu sekolah terjadi konflik antara siswa yang satu dengan yang lain maka konflik tersebut termasuk konflik A. horizontal B. vertikal C. diagonal D. politik Tolong di jawab... Mohon bantuannya... maaf bila ada kesalahan kata... terima kasih</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#what-to-do-after-high-school-graduationgoing-to-college-or-getting-a-job-right-after-graduating-high-school-is-the-common-choices-of-teens-will-likely-face-some-likely-choose-to-continue-studying-at">6.
+                                            What to do After High School Graduation
+Going to college or getting a job right after graduating high school is the common choices of teens will likely face. Some likely choose to continue studying at college or university but the others try to find job. Here are the reasons.
+Why is it so important for student to continue on to post-secondary education; university or college? The reason is that post-secondary education will allow them to get the skills and tools that they will need to help them prepare for a good career. It has been said that the more education they have the more careers will be open for them to choose from. Employers today will tend to be more open to a person with the more education.
+However some of them choose to get job right after high school. They believe that education is critical but college is not. In fact, there are numerous careers, such as in healthcare, technology, operations, transportation, and the building trades, that do not require a four-year degree from college or university. Furthermore, as they advance in these careers, there is also nothing stopping them from pursing a college degree at a later age.So, what are you doing after graduating high school? Think carefully! The wrong decision may influence your future. But who knows the future? Believe to God and do the best!
+Questions: 1. What is the text talking about? 2. What is the choices that can be chosen after graduating? Mention! 3. What makes important in continuing study in the college? 4. What is the statement said by the cons side? 5. What does the employer today look like?​
+TAMBAHKAN JAWABAN
++5 POIN
+Tanyakan najlaamalia23 mengenai soal ini...
+najlaamalia23 menunggu jawabanmu.
+Bantu jawab dan dapatkan poin.
+Sedang mencari jawaban di buku B. inggris?
+Jelajahi perpustakaan buku sekolah kami, lengkap dengan pertanyaan dan solusi jawaban beserta langkah-langkahnya
+TEMUKAN JAWABAN
+Pertanyaan baru di B. inggris
+tolong ya jawabannya . tolong di isi kata kata nya pliss​
+Choose the correct answer by putting a tick​
+Tugas B.inggris tolong ya kak dijawab pki B.ingris juga​
+How many dogs does the writer have? * A. one B. two C. three D. four
+Bantu Dong Kaka-kaka,Besok Di kumpulin ​
+Susunlah kata yg masih acak itu menjadi kalimat yg benar. bantu jawab ya kak...... makasih​
+The are around 6000 Sumatran tigers living in the wild. (.....)​
+buatlah contoh dialog pendek Di Taman​
+complete the dialog below​
+why does mahendra apologize? does sonya forgive mahendra ? what do you call the underlined sentece ? what foes sonya say to take apart ?​
+MUAT LEBIH BANYAK
+Sebelumnya
+Berikutnya
+Tanyakan pertanyaanmu
+MENGETAHUI SEMUA JAWABAN
+Situs ini menggunakan cookie berdasarkan kebijakan cookie . Kamu bisa menentukan kondisi menyimpan dan mengakses cookie di browser
+PERUSAHAAN
+Tentang kami
+Karir
+Beriklan dengan kami
+Ketentuan Penggunaan
+Kebijakan Hak Cipta
+Kebijakan Privasi
+Kebijakan Cookie
+KOMUNITAS
+Komunitas Brainly
+Brainly untuk Sekolah &amp; Guru
+Komunitas Orang Tua
+Sumpah Kehormatan
+Pedoman Komunitas
+Brainly Insights
+Menjadi Sukarelawan
+BANTUAN
+Daftar
+Pusat Bantuan
+Pusat Keamanan
+Perjanjian Pengungkapan yang Bertanggung Jawab
+Dapatkan App Brainly
+Unduh App Android
+PINDAI PR-MU</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#feby-membeli-satu-karung-gandum-dengan-harga-rp100-00000-pada-karung-gandum-tertulis-bruto-20-kgdan-tara-5-jika-feby-menjual-gandum-dengan-harga-rp8-00000-per-kg-dan-semua-gandum-terjual-maka">7.
+                                            Feby membeli satu karung gandum dengan harga Rp
+100.000,00, pada karung gandum tertulis bruto 20 kg
+dan tara 5%, jika Feby menjual gandum dengan harga Rp
+8.000,00 per kg dan semua gandum terjual, maka
+keuntungan ,maka keuntungan yang di terima adalah
+A. Rp 52.000,00
+C. Rp 64.000,00
+B.Rp 60.000,00
+D. Rp 152.000,00​
+TAMBAHKAN JAWABAN
++5 POIN
+Tanyakan 2010rahmiyati mengenai soal ini...
+2010rahmiyati menunggu jawabanmu.
+Bantu jawab dan dapatkan poin.
+Pertanyaan baru di Sejarah
+yesus menderita sengsara dan wafat pada saat pemerintahan gubernur​
+1. Siapakah Ted Bundy itu? 2. Perbuatan apa yang telah ia lakukan? Jelaskan secara terperinci!​
+Tembok Besar Cina sebagai benteng pertahanan dibangun pada masa .... Pilih jawaban Dinasti Xia Dinasti Chin Dinasti Han Dinasti Ming Dinasti Shang​
+Peradaban dan kemajuan sebuah bangsa dapat terwujud jika perdamaian terwujud dalam sebuah wilayah Negara. Prinsip ini dipegang betul oleh Sultan Al-Ka…
+Hieroglyf dipahat di ... Pilih jawaban a. Sphinx, tembok makam b. Sphinx, daun papyrus c. Dinding makam, daun papyrus d. Rumah Firaun, sphinx e. Keraj…
+Kegiatan perdagangan Mesopotamia didominasi pertukaran dengan masyarakat... Pilih jawaban a. Shindu b. Arya c. Semit d. Babylonia e. Sumeria​
+Bangsa .... dan .... tercatat sebagai masyarakat di daerah Mesopotamia. Pilih jawaban a. Sumeria, Akkadia b. Assyria, Aztec c. Semit, Sumeria d. Sumer…
+apa nilai yang di cerminkan saat berbuat adil kepada orang lain ?​
+7 Jelaskan mengapa jepang tidak diterima oleh banyak golongan umat Islam Di Indonesia?​
+kerajaan samudra pasai mengalami perkembangan perekonomian yang cukup pesat sebagai akibat dari kondisi a. kebijakan ekonomi yang menitikberatkan pada…
+Kuo-Yu adalah... Pilih jawaban a. Mata uang tunggal dalam perdagangan b. Daerah perdagangan di sekitar lembah sungai Hwang Ho c. Bahasa persatuan masy…
+Bangsa Aria di masa lampau diyakini mendiami daerah... Pilih jawaban Sutkagedon Lembah Sungai Gangga Mohenjo Daro Harappa Sumeria​
+... adalah pusat perdagangan di lembah sungai Shindu karena posisinya yang strategis dapat dicapai melalui darat dan laut. Pilih jawaban a. Sumeria b.…
+Tuliskan 2 contoh pelayan Tuhan yesus ​
+Kehadiran perusahaan multinasional memunculkan kontroversi. Di satu pihak kehadiran tersebut dianggap mewakili imperialisme baru (dalam hal ekonomi). …
+BUAT TUGAS DALAM BENTUK RESUME TENTANG 1. KERAJAAN - KERAJAAN ISLAM DI KALIMANTAN 2. KERAJAAN - KERAJAAN ISLAM DI SULAWESI 3. KERAJAAN - KERAJAAN ISAM…
+buatlah dalam bentuk diagram garis unsur hikayat​
+tumpuan kaki pada dinding kolam saat hendak meluncur bertujuan​
+Membuat 10 soal Pilihan ganda beserta ku​nci jawaban materi tentang "Islamisasi, jaringan perdagangan Nusantara, kerajaan Islam" ​
+sebutakan tata cara sholat fardhu lengkap dan dapat difahami jawaban harus benar kalau benar saya akan menjadi kan jawaban itu sebagai jawaban tercerd…
+MUAT LEBIH BANYAK
+Sebelumnya
+Berikutnya</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#tugas-ppkn-5dikerjakan-di-buku-latihan-ppkn-dan-ditulis-soalnya1-berikut-ini-merupakan-contoh-pembiasaan-perilaku-sesuai-nilai-nilai-pancasila-dalam-lingkungan-kehidupan-bermasyarakat-ialah-a">8.
+                                            TUGAS PPKn 5:
+Dikerjakan di Buku Latihan PPKn, dan diTulis Soalnya!
+1. Berikut ini merupakan contoh pembiasaan perilaku sesuai nilai-nilai Pancasila dalam lingkungan kehidupan bermasyarakat ialah...
+A. suka mengalah dalam pergaulan
+B. mengembangkan sikap toleransi 
+C. mengikuti kegiatan para pemuda
+D. saling membantu antar anggota keluarga
+2. Koperasi merupakan salah satu contoh wujud nyata perwujudan dari nilai-nilai Pancasila yang mencerminkan sikap kekeluargaan dan kegotongroyongan dalam kehidupan bermasyarakat dan bernegara di bidang...
+A. sosial
+B. budaya
+C. ekonomi
+D. usaha kecil menengah
+3. Keterbukaan ideologi Pancasila yang mampu berinteraksi secara dinamis dan mampu menyesuaikan diri dengan perkembangan zaman mengandung nilai praksis yaitu...
+A. hakikat dari kelima sila Pancasila
+B. nilai dasar yang bersifat tetap dan melekat pada kelangsungan hidup negara
+C. realisasi dari pengalaman nyata dalam kehidupan sehari-hari
+D. penjabaran lebih lanjut dari nilai dasar Pancasila
+4. Saat ini ancaman terhadap Pancasila sebagai dasar negara tidak lagi dihadapkan pada pemberontakan yang ingin mengganti Pancasila dengan ideologi lain melainkan pada kondisi kehidupan masyarakat Indonesia yang diwarnai oleh kehidupan yang serba bebas tanpa batas seperti kebebasan berekspresi dan sebagainya dimana di satu sisi dapat memacu kreativitas masyarakat, tapi di sisi lain bisa mendatangkan dampak negatif bagi bangsa Indonesia.
+Sikap yang konstruktif sebagai warga negara dalam menyikapi hal tersebut adalah...
+A. melakukan sesuatu sesuai yang haknya
+B. menutup diri terhadap perubahan
+C. hidup bebas tanpa ada yang membatasi
+D. menjaga diri dari kebebasan tanpa batas
+5. Perhatikan wacana berikut!
+Pemilu di Indonesia merupakan salah satu contoh perwujudan nilai-nilai Pancasila dalam bidang politik yang secara periodik menjadi sarana bagi masyarakat Indonesia untuk memilih calon-calon wakil mereka baik di eksekutif maupun legislatif. Proses  pemilu dilaksanakan dengan aturan yang jelas dari lembaga penyelenggara pemilu KPU dengan menerapkan asas langsung, umum, bebas, rahasia, jujur dan adil (luber jurdil) baik bagi peserta pemilu maupun pemilih untuk menyelenggarakan pemilu yang mampu menghasilkan pemimipin yang berkompeten dan dipercaya oleh masyarakat dengan tertib dan damai.
+Kesimpulan yang tepat dari informasi yang disampaikan dalam wacana tersebut adalah...
+A. menjamin bahwa di Indonesia terdapat lembaga penyelenggara pemilu, lembaga legislatif dan lembaga eksekutif yang dipilih langsung oleh masyarakat melalui pemilu
+B. menjamin terselenggaranya proses pergantian kepemimpinan secara teratur, bukan atas dasar keturunan, mengangkat diri sendiri atau perebutan kekuasaan
+C. menjamin terselenggaranya pemilu pertama di Indonesia tahun 1955 yang berasas langsung, umum, bebas, rahasia, jujur dan adil
+D. menjamin terselenggaranya pemilu dengan asas langsung, umum, bebas, rahasia, jujur dan adil untuk memilih anggota legislatif, eksekutif dan yudikatif
+Tolong di jawab yah mau di kumpul hari ini:)!</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ppkn-kd-3-31-contoh-keberagaman-yang-ada-di-indonesia-adalah-a-suku-agama-dan-presidenb-suku-ras-dan-budayac-agama-negara-dan-keseniand-agama-negara-dan-presiden2-faktor-penyebab-keber">9.
+                                            PPKn (KD 3.3)1. Contoh keberagaman yang ada di Indonesia adalah ....A. Suku, agama dan presidenB. Suku, ras dan budayaC. Agama, negara dan kesenianD. Agama, negara dan presiden2. Faktor penyebab keberagaman di Indonesia adalah ....A. Pernah dijajah selama ratusan tahunB. Pernah mengalami krisis ekonomiC. Kondisi negara Indonesia yang berbentuk kepulauanD. Kemajuan ilmu teknologi dan komunikasi3. Semboyan Persatuan Indonesia adalah ....A. Tut Wuri HandayaniB. Bhinneka Tunggal IkaC. Sumpah PalapaD. Garuda Pancasila4. Contoh musyawarah di kelas ....A. melakukan piket kelasB. memilih ketua kelasC. mengerjakan tugas mandiriD. mengerjakan ulangan dengan jujur5. Berikut ini yang termasuk keberagaman di bidangbudaya adalah ....A. Agama, bahasa dan rumah adatB. Pakaian, rumah adat dan makananC. Warna kulit, alat musik dan agamaD. Bahasa, rumah adat dan agamaBahasa Indonesia (KD 3.5)6. Penulisan nama kota dan tanggal surat yang benaradalah ....A. Jakarta; 16 Agustus 2018B. Jakarta. 16 Agustus 2018C. Jakarta: 16 Agustus 2018D. Jakarta, 16 Agustus 2018Baca teks berikut untuk menjawab soal no 7-9 !Pembacaan teks Proklamasi Kemerdekaan dilaksanakanpada hari Jum'at tanggal 17 Agustus 1945. Sejak pagi, telahdilakukan persiapan di rumah Ir. Soekarno, untuk menyambutProklamasi Kemerdekaan Indonesia. Banyak tokohpergerakan nasional beserta rakyat berkumpul di tempat itu.Mereka ingin menyaksikan pembacaan teks ProklamasiKemerdekaan Indonesia. Sesuai kesepakatan yang diambildi rumah Laksamana Maeda, para tokoh Indonesia menjelangpukul 10.30 Waktu Jawa Zaman Jepang atau pukul 10.00WIB telah berdatangan ke rumah Ir. Soekarno.7. Siapa yang membaca teks proklamasi....A. Ir. Soekarno.B. Moh. HattaC. SoepomoD. Laksamana Maeda​8. Dimana teks proklamasi dibacakan ....A. Di museumB. Di rumah Laksamana MaedaC. Di rumah SoekarnoD. Istana presiden9. Peristiwa penting apa yang terjadi pada teks di atas..A. Sumpah PemudaB. Persatuan IndonesiaC. Kedaulatan Republik IndonesiaD. Pembacaan teks proklamasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#5-asesmen-sumatif-bab-a-berilah-tanda-silang-x-pada-huruf-a-b-c-atau-d-sebagai-alternatif-jawaban-yang-paling-tepat-3-1-penerapan-nilai-nilai-pancasila-dalam-kehidupan-sehari-hari-penting-untu">10.
+                                            5 Asesmen Sumatif Bab A Berilah tanda silang (X) pada huruf A, B, C, atau D sebagai alternatif jawaban yang paling tepat! 3. 1. Penerapan nilai-nilai Pancasila dalam kehidupan sehari-hari penting untuk dilaksanakan oleh 4. seluruh warga Indonesia, karena Pancasila berkedudukan sebagai A. pedomankehidupan berbangsa dan bemegara bagi rakyat Indonesia B. buah dari hasil perjuangan para pendiri bangsa Indonesia C. hasil keputusan musyawarah sidang-sidang di dalam lembaga negara D. dasar dari nilai-nilai sosial dan budaya masyarakat Indonesia pertama Pancasila mengandung makna bahwa dalam kehidupan bermasyarakat pastilah akan ditemui adanya perbedaan dalam hal 2. Sila 5. Modul Pendamping Belajar D. menghormati serta kepada orang tua Penerapan pengamalan sila Ketuhanan Yang Maha Esa dalam kehidupan masyarakat adalah.... A. menengok teman yang sakit jika beragama yang sama bekerja sama dalam segala hal B. termasuk hal keyakinan agama. C. tidak memaksakan orang lain untuk memeluk agama tertentu D. bekerja sama hanya dengan teman seagama saja Ketika musyawarah sedang berlangsung ada peserta sedang menyampaikan pendapatnya, maka sikap kita sebaiknya adalah patuh **** A. mendengarkan dan menyela jika ada pendapat yang tidak sesuai. B. mengacuhkan karena tidak sesuai pendapatnya. C. mendengarkan dengan baik sampai dia selesai berbicara. D. mendengarkan sambil berbincang dengan teman sebelah. A. suku bangsa dan bahasa B. kepercayaan dan agama C. kepercayaan dan Bahasa D. agama dan suku bangsa Contoh penerapan sila kedua di lingkungan keluarga adalah A. selalu ringan tangan apabila dimintai bantuan guru atau 6. Contoh pengamalan sila Keadilan Sosial Bagi Seluruh Indonesia yang dalam kehidupan Rakyat bermasyarakat adalah teman. B. memiliki rasa simpati sertal empati terhadap teman sakit C. menjaga sikap dan senantiasa bersikap sopan dalam berbagai kondisi A. suka memberikan pertolongan kepada orang yang membutuhkan in Pancasila untuk SD/MI Fase A Kal menghormati umat beragama lain melaksanakan ibadahnya C. mencintai tanah air dan bangga sebagai bangsa Indonesia D. melaksanakan setiap hasil 9. Perbuatan musyawarah dengan tanggung musyaw jawab 7 B. selalu oleh Kamil adalah anak yang ringan tangan, ia mengikuti kegiatan gotong royong yang masyarakat. Tidak heran jika ia disukai oleh masyarakat karena perilakunya. wasyond Perilaku Kamil merupakan contoh ACACION penerapan pancasila sila..... A. kedua dilakukan TUN B. ketigal C. keempat D. kelima 8. Para pahlawan kemerdekaan rela WARN mengorbankan nyawa, harta dan keluarganya demi kemerdekaan NKRI. Perjuangan para pahlawan merupakan contoh penerapan Pancasila sila .... A B. kedua ketiga C. keempat D kelima. yang termasuk beribadah yang berhubungan dengan sesama manusia adalah.... A. menjenguk teman yang sakit B. membantu teman mengerjakan PR C. menceritakan kebaikan teman D. memberikan jawaban soal kepada teman 10. Contoh penerapan sila kelima dalam kehidupan bermasyarakat adalah.... A. tidak memaksakan kehendak kepada orang lain dalam musyawarah B. tidak membeda-bedakan orang berdasarkan latar belakangnya C. tidak semena-mena kepada orang lain D. tidak memaksakan agama yang dianut kepada orang lain B. Isilah titik di bawah ini dengan jawaban yang tepat! 1. Manusia memiliki derajat yang sama, karenanya kita harus saling mencintai dan menghormati sesama manusia, di mana pun kita berada. Pernyataan ini merupakan perwujudan pengamalan Pancasila terutama sila.... 2. Sila keempat mengajarkan kita sebagai warga negara Indonesia untuk. mengutamakan ... dalam menyelesaikan masalah bersama. 3. Perhatikan gambar berikut! Kegiatan yang ditunjukkan oleh gambar, merupakan contoh penerapan Pancasila. dalam kehidupan bermasyarakat, terutama pada sila....​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#gempa-bumi-belakangan-ini-gempa-bumi-menjadi-buah-bibir-di-kalangan-masyarakat-indonesia-sepanjang-sejarah-umat-manusia-gempa-selalu-saja-menimbulkan-kerugian-baik-materi-maupun-korban-jiwa-tidak-b">11.
+                                            Gempa bumi Belakangan ini gempa bumi menjadi buah bibir di kalangan masyarakat Indonesia. Sepanjang sejarah umat manusia, gempa selalu saja menimbulkan kerugian baik materi maupun korban jiwa. Tidak berlebihan rasanya jika dikatakan bahwa fenomena gempa bumi adalah peristiwa yang berdampak secara langsung kepada makhluk hidup tidak terkecuali manusia. Hal tersebut menjadikan gempa bumi sebagai salah satu bencana alam yang ditakuti oleh setiap orang. 1. Jika dilihat dari struktur teks eksplanasi, teks tersebut adalah bagian dari … A. Kronologis (urutan peristiwa) B. Sebab atau akibat C. Pengenalan objek D. Asal-usul peristiwa E. Kesimpulan 2. Pada teks eksplanasi di atas terdapat kata yang menjadi penunjuk waktu. Kata tersebut adalah … A. Belakangan ini B. menjadikan C. tidak berlebihan D. berdampakE. menimbulkan Perhatikan kutipan berikut ini untuk menjawab soal nomor 3-4! Bioteknologi adalah istilah yang berasal dari bahasa latin yang terdiri atas kata bio yang berarti “hidup” dan teknos yang berarti “teknologi” serta logos yang berarti “ilmu”. Selanjutnya boiteknologi diartikan sebagai kajian ilmu terapan yang konsen terhadap rangkaian proses biologis dalam rangka menghasilkan barang dan jasa yang menerapkan prinsip sains. Perkembangan bioteknologi tak hanya didasarkan pada cabang keilmuan biologi saja, namun juga pada disiplin ilmu terapan lainnya semisal biologi molekuler, komputer, biokimia, genetika, kimia, mikrobiologis, matematika , dan lain sebagainya. 3. Pernyataan di bawah ini yang sesuai dengan teks di atas adalah...A. Bioteknologi adalah cabang dari keilmuan teknologi B. Bioteknologi bukanlah keilmuan murni C. Bioteknologi diciptakan untuk mencari keuntungan D. Bioteknologi adalah hasil penerapan teknologi terhadap proses biologis E. Peristiwa biologis yang menjadi dasar adanya perkembangan bioteknologi 4. Teks di atas menggunakan pola pengembangan … A. Contoh B. Definisi C. Klasifikasi D. Kronolgis E. Proses 5. Teks eksplanasi ditulis untuk menjawab pertanyaan … A. Apa dan siapa B. Kapan dan dimana C. Bagaimana dan mengapa D. Berapa dan bagaimana E. Siapa dan mengapa 6. Berikut ini ciri-ciri teks eksplanasi, kecuali … A. Struktur terdiri atas pernyataan umum, deretan penjelas, dan penutup B. Memuat informasi sesungguhnya/fakta C. Memuat informasi yang bersifat keilmuan D. Menjelaskan suatu kondisi atau fenomena E. Berisi langkah-langkah kerja Perhatikan kalimat berikut ini! (1) Agar selalu terhindar dari bencana alam gempa bumi (2) Penduduk dekat gunung berapi harus selalu waspada (3) Gempa bumi sering terjadi di daerah gunung yang berapi (4) Gempa bumi adalah getaran yang terjadi karena pergerakan lapisan bumi 7. Susunlah kalimat tersebut menjadi urutan yang tepat …A. (4),(3),(2),(1) B. (3),(2),(4),(1) C. (1),(3),(2),(4) D. (1),(2),(3),(4) E. (2),(1),(3),(4) 8. Berikut ini yang tidak termasuk kalimat yang menggunakan keterangan waktu adalah … A. Pada usia dua minggu, embrio manusia merupakan sebuah cakram pipih B. Pada bulan ketiga, bentuk manusia telah terwujud C. Pada tahap ini, embrio disebut fetus D. Selama bulan keenam, alis dan bulu mata timbul E. Lemak ditimbun di bawah kulit sehingga perlahan-lahan menghilang keriput pada kulitBacalah teks di bawah ini untuk menjawab soal nomor 9-10! Presiden Soekarno beserta rombongannya memasuki lapangan. Presiden melakukan pidato dan bendera merah putih pun dikibarkan. Untuk menghindari insiden dengan tentara jepang, Bung Karno hanya menyampaikan sedikit pesan kepada rakyat agar tetap percaya kepada pimpinan. Masyarakat kembali ke tempat mereka masing-masing dengan tertib dan tenang 9. Teks di atas menjelaskan peristiwa … A. Pidato Presiden Soekarno di lapangan B. Penyambutan Presiden Soekarno C. Perlawanan rakyat terhadap jepang D. Ketertiban dan ketenangan masyarakat E. Hubungan baik pemimpin dengan rakyatnya 10. Keterangan cara dinyatakan dalam kalimat … A. Pertama B. Kedua C. Ketiga D. Keempat E. pertama dan kedua​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-emile-durkheim-merupakan-tokoh-sosiologi-yang-berasal-dari-perancis-sebagai-salah-satu-peletak-dasar-sosiologi-ia-mengatakan-bahwa-sosiologi-mempelajari-tentang-a-tindakan-sosialb-realitas-s">12.
+                                            1. Emile Durkheim merupakan tokoh sosiologi yang berasal dari Perancis. Sebagai salah satu peletak dasar sosiologi, ia mengatakan bahwa sosiologi mempelajari tentang....A. tindakan sosialB. realitas sosialC. struktur sosialD. imajinasi sosiologiE. fakta sosial2. Berikut ini merupakan objek kajian sosiologi yaitu ....A. masyarakat dan individuB. manusia dan kepribadianC. interaksi dan komunikasiD. hukum dan HAME. integrasi sosial dan kesetaraan sosial3. Sosiologi berguna dalam proses pembangunan yang dilaksanakan pemerintah. Berikut ini merupakan contoh fungsi sosiologi dalam pembangunan yaitu ....A. melakukan penelitian tentang rancangan bangunanB. melakukan pengumpulan data tentang kondisi geografis wilayahC. memberikan keputusan yang tepat tentang kebijakan pemerintah dalam program pembangunanD. memberikan data yang diperlukan untuk melakukan perencanaan sosialE. melaksanakan reduksi data dari hasil penelitian4. Masyarakat berbondong-bondong pindah ke kota-kota besar untuk mencari peluang kerja. Tentu saja hal ini menyebabkan berbagai masalah sosial pada kota-kota tujuan. Ditambah lagi, jika masyarakat yang pindah ke kota besar belum memiliki keterampilan yang mencukupi. Cara untuk mengatasi permasalahan pendatang di kota besar adalah....A. mempercepat pembangunan dan menciptakan lapangan kerja di setiap daerahB. kebanyakan penduduk desa bekerja di sektor pertanianC. keberadaan pemukiman kumuh memang menjadi alternatif bagi pendatang yang belum mendapatkan tempat tinggal D. urbanisasi dihilangkan agar tidak terjadi terjadi kepadatan pendudukE. memberikan pendatang modal usaha dan tempat tinggal5. Ketika teman-temannya menggunakan bocoran kunci jawaban UN, Gusti memilih untuk tidak menggunakannya dan mengandalkan kemampuannya sendiri dalam menjawab soal. Sikap yang ditunjukkan oleh Gusti tersebut merupakan sikap yang sesuai dengan norma sosial. Dalam hal ini norma sosial berfungsi sebagai....A. alat untuk menertibkan masyarakatB. pengendalian tingkah lakuC. sistem kelola masyarakatD. pandangan hidupE. kebiasaan sehari-hari​Beserta alasan /penjelasannya ya kk</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#bacalah-teks-berikut-untuk-menjawab-soal-nomor-1-dan-2-perempuan-memang-paling-rentan-terhadap-anemia-terutama-anemia-karena-kekurangan-zat-besi-darah-memang-sangat-penting-bagi-perempuan-hal-ini">13.
+                                            Bacalah teks berikut untuk menjawab soal nomor 1 dan 2.
+Perempuan memang paling rentan terhadap anemia, terutama anemia karena kekurangan zat besi. Darah memang sangat penting bagi perempuan. Hal ini terutama pada saat hamil, saat zat besi itu dibagi dua, yaitu bagi si ibu dan janinnya. Jika si ibu anemia, bisa terjadi abortus, lahir premature, dan juga kematian ibu melahirkan . Padahal, kita ingat, di Indonesia , angka kematian ibu melahirkan dan kematian bayi masih cukup tinggi. Bahkan, bagi janin, zat besi juga dibutuhkan, terutama juga ada kaitannya dengan kecerdasan.
+1. Teks di atas membicarakan . . . .
+a. Anemia pada perempuan
+b. Bahaya melakukan abortus
+c. Zat besi pada bayi
+d. Kebutuhan zat besi pada ibu hamil
+e. Tingginya angka kematian ibu melahirkan 
+2. Masalah diskusi yang dapat diangkat dari teks tersebut adalah . . . .
+a. Anemia penyakit berbahaya pada ibu melahirkan 
+b. Cara memelihara janin
+c. Kondisi ibu-ibu di Indonesia 
+d. Tingginya angka kematian ibu melahirkan
+e. Pengaruh zat besi pada ibu-ibu dan anak-anak 
+Bacalah teks berikut untuk menjawab soal nomor 3 dan 4.
+Maaf, Saudara pemakalah. Saya punya pendapat yang sebaiknya dengan Saudara. Menurut saya, upaya pemerintah dalam memberikan Sembako kepada rakyat miskin itu tidaklah mendidik karena yang lebih tepat adalah dengan penyediaan lapangan kerja yang memadai bagi mereka. 
+3. Hal yang disanggah di dalam tanggapan di atas adalah . . . .
+a. Pemberian sembako
+b. Sistem Pendidikan 
+c. Kelangkaan lapangan kerja
+d. Kemiskinan rakyat yang perlu ditanggulangi pemerintah
+e. Lemahnya pemerintah Jawa Barat dalam penyediaan lapangan kerja
+4. Dalam teks tersebut terdapat kalimat yang tidak efektif karena kesalahan penulisan huruf kapital, yakni pada kata . . . .
+a. Maaf
+b. Saudara
+c. Pemerintah
+d. Sembako
+e. Menurut
+5. Pendapat yang Anda katakan tadi salah.
+Kata yang harus diperbaiki di dalam kalimat di atas agar lebih santun adalah . . . .
+a. Pendapat
+b. Anda
+c. Katakan
+d. Tadi 
+e. Salah
+6. Berikut yang termasuk contoh kalimat efektif adalah . . . .
+a. Atas perhatiannya, saya ucapkan terima kasih
+b. Kakeknya mengajar ilmu kedigjayaan di perguruan ini.
+c. Tahun ini upeti para penggawa kerajaan baru saja dinaikkan
+d. Petapa itu menceritakan pengalaman masa kecilnya
+e. Di pendopo ini kami dipelajarkan berbagai ilmu kedigjayaan.
+7. Kalimat yang tepat pilihan katanya adalah . . . .
+a. Terima kasih atas kesempatan yang diberikan kepada saya
+b. Pemimpin upacara dipersilahkan untuk mengambil tempat
+c. Untuk mempersingkat waktu, baiklah saya mulai diskusi ini
+d. Selanjutnya sambutan Bapak Camat, waktu kami persilahkan 
+e. Para hadirin dapat dipersilahkan mengisi tempat deretan depan
+8. Seorang penyaji menyampaikan makalahnya dengan topik “Pengaruh rokok terhadap kesehatan”. Selain pengaruh negatif, disampaikan juga pengaruh-pengaruh positif. Seorang peserta menolak pendapat tentang pengaruh-pengaruh tersebut.
+Kalimat penolakan yang tepat dan sesuai dengan sopan santun berdiskusi adalah . . . .
+a. Saudara moderator, saya menolak pendapat tersebut karena tidak didukung oleh data yang cukup.
+b. Saudara moderator, saya kurang menerima pendapat tersebut karena masih perlu dilengkapi dengan data yang lain.
+c. Saudara moderator, saya tidak sependapat karena tidak sesuai dengan kenyataan.
+d. Saudara moderator, saya tidak menyetujui pendapat tersebut karena sulit untuk dilaksanakan.
+e. Saudara moderator, pendapat tersebut perlu ditinjau kembali karena dalam kenyataannya pengaruh positif merokok sukar dibuktikan.
+9. Pendapat yang disampaikan pemakalah menurut saya salah, tidak sesuai dengan fakta di lapangan.
+Tanggapan di atas tidak memperhatikan kesantunan berbahasa. Kata yang perlu diperbaiki dalam tanggapan itu adalah . . . .
+a. Fakta diganti data
+b. Disampaikan diganti diutarakan 
+c. Salah diganti kurang tepat
+d. Menurut saya dengan anggapan saya
+e. Tidak sesuai dengan tidak selaras 
+10. Penulisan makalah ini didasari oleh kenyataan di lapangan atas banyaknya calon tenaga kerja yang tidak bisa menghadapi pewawancara. Mereka sering kali gugup dan tidak bisa menyampaikan kemampuan dirinya secara optimal. Padahal, kalau mental mereka dipersiapkan dengan baik, potensi dan kemampuan mereka bisa ditunjukkan dengan semestinya kepada pihak yang mewawancarainya.
+Di dalam makalah, bagian tersebut harus dituangkan dalam bagian . . . .
+a. Pembahasan
+b. Latar belakang 
+c. Perumusan masalah
+d. Manfaat pemecahan masalah
+e. Prosedur pemecahan masalah</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#1-berikut-ini-ialah-contoh-penggalan-teks-laporan-yang-disusun-atas-dasar-pola-urutan-waktu-yaitu-%e2%80%a6a-kantor-kelurahan-menghadap-arah-depan-mushola-batas-pagar-mushola-hanya-berselang-sekita">14.
+                                            1. Berikut ini ialah contoh penggalan teks laporan yang disusun atas dasar pola urutan waktu yaitu …a. Kantor kelurahan menghadap arah depan mushola. Batas pagar mushola hanya berselang sekitar 3 meter saja.b. Ketika istirahat kami makan bersama sambil mengobrol ringan sebagai periang istirahat kami.c. Setelah melintasi pemakaman, sekitar 200 meter kamu akan menemukan toko buah. Disitulah rumah sayad. Pak bejo namanya. Ia selalu beruntung dalam hal apapun sesuai dengan namanya2. Tujuan teks laporan adalah …a. memberikan informasi perstiwa yang belum terjadib. Memberikan suatu informasi secara umum kepada pembacac. untuk memberikan penjelasan tentang suatu perisiwad. pembukuan suatu peristiwa3. Salah satu struktur dalam teks laporan adalah …a. kesimpulan umumb. daftar isic. teorid. klarifikasi umumBaca teks laporan berikut ini untuk menjawab soal pada nomor 4 dan 5 :Hampir setiap hari kalian bisa menemukan tempat pemujaan didesaku. Taburan bunga kamboja yang banyak selalu menghiasi tempat pemujaan tersebut. Seperti pada bagian pinggir sebelah kiri tempat itu, terdapat seonggok tanah liat yang tak tahu mengapa benda itu harus berada di sana. Sedangkan di bagian sebelah kanan terdapat asap dari lampu sentir yang semakin lama menjadi menghitam.4. Potongan teks laporan di atas tersusun atas pola …a. Sebab-akibatb. Waktuc. Perbandingand. Ruang / tempat5. Penggalan teks laporan di atas mengandung makna tentang …a. budaya kebersihanb. budaya perdukunanc. kondisi di suatu tempatd. kebiasaan masyarakat sekitar6. Bagaimana kondisi para pendaki gunung semeru yang hilang setelah dua hari baru diketemukan oleh tim SAR?Pertanyaan di atas erat kaitannya dengan pernyataan …a. alasan para korban hilang untuk dicarib. kondisi para korban hilang yang baru 2 hari bisa diketemukanc. Mengapa mereka harus menghilangd. Latar belakang hilangnya para pendaki gunung semerue. Melakukan pencarian dan baru 2 hari setelah pencarian merupakan hal yang tidak mudah7. Struktur dalam wawancara adalah kecuali …a. awal wanwancarab. tengah wawancarac. akhir wawancarad. waktu wawancaraBacalah penggalan reportase berikut ini untuk menjawab soal nomor 8 dan 9!Pewawancara : sejak kapan bapak mulai ditugaskan sebagai prajurit dipedalaman ini?Nara sumber : …8. Pertanyaan pewawancara tersebut ditujukan kepada …a. Pegawai BUMNb. Anggota Prajurit TNIc. Anggota DPR RId. Guru9. Jawaban yang tepat untuk melengkapi ruang rumpang pada reportase di atas adalah …a. Saya mengabdi sebagai prajurit dipedalaman ini sejak tahun 2013b. Saya sudah menjalani aktivitas sebagai prajurit sejak tahun 2013c. Sejak tahun 2013, saya sudah berkeliling Indonesiad. Pada tahun 2013, saat dimulainya ulang tahun kemerdekaan10. Perhatikan susunan kalimat berikut!Akibat terjatuh dari pohon yang terjadi 10 tahun yang lalu membuatnya buta.Kata yang dicetak tebal tersebut agar lebih santun sebaiknya disubtitusikan dengan …a. Kehilangan penglihatannyab. Kehilangan kedua matanyac. Kehilangan pendengarannyad. Kehilangan akal sehatnya11. Struktur dalam teks pidato adalah kecuali …a. isi pidatob. pembukaanc. penutupd. daftar isi12. Sikap saat membaca teks pidato yang harus diperhatikan yaitu ketika membaca harus …a. Tenang dan membaca dengan sedikit santaib. Bersikap biasa atau apa adanyac. Khidmat, tenang, tidak gugup, membaca dengan suara yang keras sekalid. Bersikap tenang, khidmat dan membaca dengan keras, tetapi tidak berteriak agar peserta upacara mendengar13. Berikut ini adalah penggalan cerita yang dapat diceritakan kembali dengan ekspresi mencekam adalah ….a. Baru tadi sore berita tersebar. Kabar itu pun menjadi pembicaraan para tetangga. Kebetulan yang Hendri pun belum mengetahui.b. Di sebuah desa hiduplah seorang laki-laki bernama Hendro. Suatu ketika Hendro ingin sekali berguru kepada seorang pendeta yang sedang bertapa seorang diri di lereng Gunung.c. Malam, udara sangat dingin, lebih dingin dari malam-malam sebelumnya. Suasana pun tampak sangat sepi, jam menunjukkan angka sepuluh malam.d. Aku mempunyai dua ekor kucing. Namanya, Mei dan Mul. Aku takut kehilangan mereka karena sangat sayang sama mereka.14. Teks deskripsi adalah …a. teks yang menggambarkan atau menjelaskan tentang suatu objekb. teks yang berisikan tentang kisah hidup seseorangc. teks yang bersifat laporand. teks yang menjelaskan tentang jalan hidup seseorang15. Struktur teks deskprisi adalah …a. indentifikasi dan deskripsib. narasi dan komedic. narasi dan deskripsid. indentifikasi dan narasi​</a>
+                                    </li>
+                                                                    <li class="ez-toc-page-1 ez-toc-heading-level-2">
+                                        <a class="ez-toc-link ez-toc-heading-1"
+                                            href="#ppkn-kd-3-31-contoh-keberagaman-yang-ada-di-indonesia-adalah-a-suku-agama-dan-presidenb-suku-ras-dan-budayac-agama-negara-dan-keseniand-agama-negara-dan-presiden2-faktor-penyebab-keber">15.
+                                            PPKn (KD 3.3)1. Contoh keberagaman yang ada di Indonesia adalah ....A. Suku, agama dan presidenB. Suku, ras dan budayaC. Agama, negara dan kesenianD. Agama, negara dan presiden2. Faktor penyebab keberagaman di Indonesia adalah ....A. Pernah dijajah selama ratusan tahunB. Pernah mengalami krisis ekonomiC. Kondisi negara Indonesia yang berbentuk kepulauanD. Kemajuan ilmu teknologi dan komunikasi3. Semboyan Persatuan Indonesia adalah ....A. Tut Wuri HandayaniB. Bhinneka Tunggal IkaC. Sumpah PalapaD. Garuda Pancasila4. Contoh musyawarah di kelas ....A. melakukan piket kelasB. memilih ketua kelasC. mengerjakan tugas mandiriD. mengerjakan ulangan dengan jujur5. Berikut ini yang termasuk keberagaman di bidangbudaya adalah ....A. Agama, bahasa dan rumah adatB. Pakaian, rumah adat dan makananC. Warna kulit, alat musik dan agamaD. Bahasa, rumah adat dan agamaBahasa Indonesia (KD 3.5)6. Penulisan nama kota dan tanggal surat yang benaradalah ....A. Jakarta; 16 Agustus 2018B. Jakarta. 16 Agustus 2018C. Jakarta: 16 Agustus 2018D. Jakarta, 16 Agustus 2018Baca teks berikut untuk menjawab soal no 7-9 !Pembacaan teks Proklamasi Kemerdekaan dilaksanakanpada hari Jum'at tanggal 17 Agustus 1945. Sejak pagi, telahdilakukan persiapan di rumah Ir. Soekarno, untuk menyambutProklamasi Kemerdekaan Indonesia. Banyak tokohpergerakan nasional beserta rakyat berkumpul di tempat itu.Mereka ingin menyaksikan pembacaan teks ProklamasiKemerdekaan Indonesia. Sesuai kesepakatan yang diambildi rumah Laksamana Maeda, para tokoh Indonesia menjelangpukul 10.30 Waktu Jawa Zaman Jepang atau pukul 10.00WIB telah berdatangan ke rumah Ir. Soekarno.7. Siapa yang membaca teks proklamasi....A. Ir. Soekarno.B. Moh. HattaC. SoepomoD. Laksamana Maeda​</a>
+                                    </li>
+                                                            </ul>
+                        </nav>
+                    </div>
+                                            <h2 class="ez-toc-section" id="c-kerjakan-soal-soal-berikut1-jelaskan-maksud-unsur-kenangan-padakonsep-sapta-pesona-dan-sebutkan-contohkegiatannya2-desa-mentari-di-daerah-dataran-rendahdilalui-sungai-dengan-air-jernih-pemerin">
+                            1. C. Kerjakan soal-soal berikut!1. Jelaskan maksud unsur kenangan padakonsep Sapta Pesona dan sebutkan contohkegiatannya!2. Desa Mentari di daerah dataran rendahdilalui sungai dengan air jernih. Pemerintahsetempat mengembangkan sungai tersebutsebagai objek wisata. Sebutkan tigajenis usaha yang sesuai dikembangkanmasyarakat setempat berdasarkan kondisitersebut!3. Mengapa kegiatan pariwisata dapatmeningkatkan pendapatan devisa negara?4.Salah satu sumber pendapatan negaraFilipina berasal dari kegiatan wisata bahari.Jelaskan faktor pendorong berkembangnyawisata bahari di negara tersebut!5. Jelaskan kegiatan ekonomi utama negaraLaos beserta faktor geografisyangmendorong perkembangan kegiatantersebut!plis jawab poin 29 jangan asal2an​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.</p><p>2. wisata foto</p><p>    wisata bunga</p><p>    wisatawan</p><p>3. karena membuat pengunjung senang</p><p>4. indah</p><p>5. </p><br />
+                                            <h2 class="ez-toc-section" id="b-untuk-mengasah-dan-menguji-kemampuan-reflektif-kalian-coba-berikanjawaban-soal-soal-melengkapi-berikut-ini-dengan-cepat-dan-tepat1-kita-harus-menghemat-air-mulai-dari-sekarang-walaupun-air-tida">
+                            2. B. Untuk mengasah dan menguji kemampuan reflektif kalian, coba berikanjawaban soal-soal melengkapi berikut ini dengan cepat dan tepat!1. Kita harus menghemat air mulai dari sekarang. Walaupun air tidak akan habis karena memiliki daur, tetapi ketersediaannya semakin berkurang. Hal ini disebabkan terjadinya pencemaran air. Penghematan air merupakan salah satu usaha yang dapat dilakukan supaya air dapat digunakan sesuai kebutuhan.Informasi yang terdapat pada teks tersebut adalah mengenai............Paragraf berikut untuk menjawab soal nomor 2 dan 3.Dalam rangka memperingati Hari Sumpah Pemuda, Pemerintah Kabupaten Aceh Tengah menggelar pentas seni lintas budaya. 1) Acara tersebut diadakan di lapangan Sanggamara.2) Acara dimeriahkan oleh para peserta pentas seni lintas budaya.3) Beragam kesenian ditampilkan untuk memeriahkan Hari Sumpah pemuda.4)2. Peristiwa utama yang terjadi pada teks ditunjukkan oleh kalimat nomor......3. Informasi penting dari teks tersebut adalah..........Paragraf berikut untuk menjawab soal nomor 4 dan 5.Indonesia merupakan paru-paru dunia kedua. Indonesia memiliki hutan lebat yang memberikan banyak oksigen. Di negara ini terdapat tumbuh-tumbuhan dan hewan yang khas, seperti matoa, kayu cendana, burung cenderawasih, orang utan, dan komodo.4. Apa yang dihasilkan hutan lebat......5. Pernyataan yang sesuai dengan isi teks tersebut adalah......C. Untuk mengasah cara berpikir kalian secara rasional, logis, kritis, dan analitis, coba berikan jawaban soal-soal essay berikut ini dengan kemampuan berpikir kalian sendiri!1. Ibu membeli obat di apotek.jelaskan arti kata apotek!Jawab:2. Buatlah 3 (tiga) contoh kalimat tanya dengan kata "siapa"!Jawab:3. Sebutkan beberapa tindakan yang dapat kita lakukan untuk ikut membantu mengurangi krisis air bersih!jawab:4. Bacalah teks berikut!Banjir melanda puluhan rumah di Desa Delas, Kecamatan Air Gegas, Kabupaten Bangka Selatan, Kepulauan Bangka Belitung. Banjir juga mengakibatkan arus lalu lintas tersendat. Sedikitnya 47 unit rumah warga terendam akibat alur sungai meluap setelah hujan deras. Banjir yang berasal dari alur sungai ini meluber cukup deras menerjang puluhan rumah warga di sekitarnya dengan kedalaman air mencapai 80 sentimeter. Banjir membuat arus lalu lintas tersendat. Melihat kondisi ini pihak kepolisian dibantu warga sekitar membuat barikade untuk menuntun kendaraan yang melintas agar tidak terjebak di tengah kubangan air.Tuliskan peristiwa yang terdapat pada teks tersebut!Jawab:5. Tulislah 3 (tiga) contoh kalimat tanya dengan kata "di mana"!Jawab:​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. penghematan energi</p><p>karena</p><p>tanpa penghematan energi kita </p><p><strong>Penjelasan:</strong></p><p>karena tanpa penghematan energi akan kekurangan energi</p><br />
+                                            <h2 class="ez-toc-section" id="sekolah-menengah-pertama-smppenilaian-akhir-semester-2mata-pelajarankelasharitanggalwaktuilmu-pengetahuan-sosialviii-delapansenin-15-juni-2020120-menitpetunjuk-umum-1-2-3-45-6-tulislah-lebih-d">
+                            3. SEKOLAH MENENGAH PERTAMA (SMP)PENILAIAN AKHIR SEMESTER 2Mata PelajaranKelasHari/TanggalWaktuILMU PENGETAHUAN SOSIALVIII (delapan)Senin, 15 Juni 2020120 menit:PETUNJUK UMUM :1.2.3.45.6.Tulislah lebih dahulu nomor peserta Anda pada lembar jawaban yang telah disediakan.Periksalah soal-soal sebelum Anda menjawabnya, laporkan kepada Pengawas PAS II jika terdapat tulisan yang kurang jelasjumlah soal kurangJumlah soal sebanyak 35 butir, terdiri dari 30 pilihan ganda, 5 uraian, dan semua harus dijawab.Dahulukan mengerjakan soal-soal yang Anda anggap mudah.Kerjakan pada lembar jawaban yang disediakan, dengan menggunakan bolpoint/ pulpen yang bertinta biru atau hitam.Apabila ada dua jawaban yang Anda jawab ternyata salah dan Anda ingin memperbaikinya, coretlah dengan dua garis lurpada lembar jawaban Anda yang salah, kemudian beri tanda silang (x) pada huruf yang Anda anggap benar.Contoh Pilihan semula :X b c dDibetulkan *b CX7.8.Periksalah pekerjaan Anda sebelum diserahkan kepada Pengawas.A. Pilihlah jawaban yang paling tepat.1. Pelaksanaan Politik Etis yang paling dirasakan dalam pergerakan nasional bangsa Indonesia adalah ...A. Pendidikan dengan munculnya golongan terpelajarB.Irigasi telah memajukan pertanian khususnya di JawaC. Perpindahan penduduk telah mengangkat kesejahteraan kaum miskinD.Kemajuan ekonomi akibat politik kolonial liberal2. Berikut ini yang bukan ruang lingkup perdagangan antar negara adalah ...A. Perpindahan barang dan jasa dari suatu negara ke negara yang lainB. Perpindahan modal melalui investasi asing dari luar negeri ke dalam negeriC.Perpindahan tenaga kerja dari suatu negara ke negara lainD. Perpindahan data tentang pangsa pasar dari luar negeri3. Pelaksanaan Tanam Paksa telah menghancurkan perekonomian Indonesia dan merupakan beban yang berat karena...A Rakyat dipaksa menyerahkan 1/5 tanah pertanian pada BelandaB. Rakyat tidak punya waktu lagi mengerjakan tanah pertaniannya untuk memenuhi kebutuhannya sendiriC. Dalam praktiknya tanah yang harus ditanami tanaman industri hampir 2/3 dari tanah yang terbaikD. Selain menanami 1/5 tanaman, wajib juga harus menyerahkan 1/5 dari hari kerjanya4. Berikut ini yang bukan faktor yang memengaruhi ekspor baik dari dalam ataupun dari luar negeri adalah ...A. Keadaan pasar luar negeriB. Keuletan eksportir untuk menangkap peluang pasarC. Keuletan importir untuk memenangi pangsa pasarD. Kondisi sosial, ekonomi, dan politik suatu negara5. Menjual barang ke luar negeri dengan harga yang lebih murah dari dalam negeri dalam perdagangan antarnegara disebut ..A. ProteksionismeB. DeregulasiC.DumpingD. Devaluasi6. Berikut ini yang bukan karakteristik perjuangan bangsa Indonesia sebelum abad XX, adalah ...A. Tidak tergantung pada satu pemimpinB. Menggunakan persenjataan tradisionalC. Bersifat lokal, kedaerahanD. Kurang menggunakan siasat perjuangan diplomasi7. Berikut ini merupakan kebijaksanaan pemerintah dalam impor, adalah ...A. Menetapkan larangan imporB. Membebaskan bea atau tarif imporC. Mengadakan devaluasiD. Menetapkan kuota​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>5.c</p><p>6.a</p><p><strong>Penjelasan:</strong></p><p>5.dumping, contohnya dilakukan oleh negara Jepang</p><p>6.masih tergantung pada 1 pemimpin</p><br />
+                                            <h2 class="ez-toc-section" id="tugas-ppkn-5dikerjakan-di-buku-latihan-ppkn-dan-ditulis-soalnya1-berikut-ini-merupakan-contoh-pembiasaan-perilaku-sesuai-nilai-nilai-pancasila-dalam-lingkungan-kehidupan-bermasyarakat-ialah-a">
+                            4. TUGAS PPKn 5:
+Dikerjakan di Buku Latihan PPKn, dan diTulis Soalnya!
+1. Berikut ini merupakan contoh pembiasaan perilaku sesuai nilai-nilai Pancasila dalam lingkungan kehidupan bermasyarakat ialah...
+A. suka mengalah dalam pergaulan
+B. mengembangkan sikap toleransi 
+C. mengikuti kegiatan para pemuda
+D. saling membantu antar anggota keluarga
+2. Koperasi merupakan salah satu contoh wujud nyata perwujudan dari nilai-nilai Pancasila yang mencerminkan sikap kekeluargaan dan kegotongroyongan dalam kehidupan bermasyarakat dan bernegara di bidang...
+A. sosial
+B. budaya
+C. ekonomi
+D. usaha kecil menengah
+3. Keterbukaan ideologi Pancasila yang mampu berinteraksi secara dinamis dan mampu menyesuaikan diri dengan perkembangan zaman mengandung nilai praksis yaitu...
+A. hakikat dari kelima sila Pancasila
+B. nilai dasar yang bersifat tetap dan melekat pada kelangsungan hidup negara
+C. realisasi dari pengalaman nyata dalam kehidupan sehari-hari
+D. penjabaran lebih lanjut dari nilai dasar Pancasila
+4. Saat ini ancaman terhadap Pancasila sebagai dasar negara tidak lagi dihadapkan pada pemberontakan yang ingin mengganti Pancasila dengan ideologi lain melainkan pada kondisi kehidupan masyarakat Indonesia yang diwarnai oleh kehidupan yang serba bebas tanpa batas seperti kebebasan berekspresi dan sebagainya dimana di satu sisi dapat memacu kreativitas masyarakat, tapi di sisi lain bisa mendatangkan dampak negatif bagi bangsa Indonesia.
+Sikap yang konstruktif sebagai warga negara dalam menyikapi hal tersebut adalah...
+A. melakukan sesuatu sesuai yang haknya
+B. menutup diri terhadap perubahan
+C. hidup bebas tanpa ada yang membatasi
+D. menjaga diri dari kebebasan tanpa batas
+5. Perhatikan wacana berikut!
+Pemilu di Indonesia merupakan salah satu contoh perwujudan nilai-nilai Pancasila dalam bidang politik yang secara periodik menjadi sarana bagi masyarakat Indonesia untuk memilih calon-calon wakil mereka baik di eksekutif maupun legislatif. Proses  pemilu dilaksanakan dengan aturan yang jelas dari lembaga penyelenggara pemilu KPU dengan menerapkan asas langsung, umum, bebas, rahasia, jujur dan adil (luber jurdil) baik bagi peserta pemilu maupun pemilih untuk menyelenggarakan pemilu yang mampu menghasilkan pemimipin yang berkompeten dan dipercaya oleh masyarakat dengan tertib dan damai.
+Kesimpulan yang tepat dari informasi yang disampaikan dalam wacana tersebut adalah...
+A. menjamin bahwa di Indonesia terdapat lembaga penyelenggara pemilu, lembaga legislatif dan lembaga eksekutif yang dipilih langsung oleh masyarakat melalui pemilu
+B. menjamin terselenggaranya proses pergantian kepemimpinan secara teratur, bukan atas dasar keturunan, mengangkat diri sendiri atau perebutan kekuasaan
+C. menjamin terselenggaranya pemilu pertama di Indonesia tahun 1955 yang berasas langsung, umum, bebas, rahasia, jujur dan adil
+D. menjamin terselenggaranya pemilu dengan asas langsung, umum, bebas, rahasia, jujur dan adil untuk memilih anggota legislatif, eksekutif dan yudikatif
+Tolong di jawab yah mau di kumpul hari ini:)!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.B. mengembangkan sikap toleransi </p><p>2.A. sosial</p><p>3.A. hakikat dari kelima sila Pancasila</p><p>4.D. menjaga diri dari kebebasan tanpa batas</p><p>5.D. menjamin terselenggaranya pemilu dengan asas langsung, umum, bebas, rahasia, jujur dan adil untuk memilih anggota legislatif, eksekutif dan yudikatif</p><br />
+                                            <h2 class="ez-toc-section" id="1-konflik-yang-dipicu-oleh-kelompok-teroris-menebar-teror-bom-hukum-meresahkan-masyarakat-membuat-repot-aparat-keamanan-solusi-yang-tepat-untuk-mengatasi-kondisi-tersebut-dapat-melaluia-mediasi-b">
+                            5. 1. konflik yang dipicu oleh kelompok teroris menebar teror bom hukum meresahkan masyarakat, membuat repot aparat keamanan solusi yang tepat untuk mengatasi kondisi tersebut dapat melaluiA.  mediasi B. ajudikasi C. akomodasi D. arbitrasi 2. konflik antara pembantu rumah tangga dan majikan kerap terjadi, yang berujung meja hijau. pemberian upahyang tidak sesuai kesepakatan kadang menjadi alasan, wacana di atas menggambarkan bahwa Konflik terjadi karena A. faktor perbedaan budaya B. perbedaan kepribadianC. perbedaan kesepakatanD. perbedaan kepentingan 3.  proses sosial dimana orang perorangan atau kelompok manusia berusaha untuk memenuhi tujuannya dengan jalan. menentang pihak lawan yang disertai dengan ancaman atau kekerasan, definisi ini dikemukakanA. Soerjono SoekantoB. Selo SomardjoC. Robert bersteinD. Robert MZ Lawang4.  reformasi tahun 1988 menyisakan masalah sosial yakni kelompok pro dan kontra konflik antara kedua kelompok tersebut disebabkan oleh adanya perbedaanA. kepentingan kelompok B. sistem pemerintahC. kesenjangan sosial D. jenis pekerjaan 5.  konflik yang diikuti dengan tindak kekerasan sering terjadi ketika polisi pamong praja menangani masalah penggusuran pedagang kaki lima yang berjualan di atas badan trotoar Jalan terjadinya konflik tersebut disebabkan oleh faktorA. perubahan yang terlalu cepatB. tuntutan kebutuhan ekonomi C. kebijakan politik dan ideologi D. perbedaan kepentingan dan tujuan6. tawuran atau konflik antara dua komunitas seringkali tidak dapat diselesaikan melalui forum nonformal tingkat RT/RW. akhirnya aparat kepolisian turun tangan dan bertindak sebagai pihak ketiga yang memfasilitasi perundingan dan konflik dapat terselesaikan bentuk akomodasi tersebut dinamakan A. kompetisi B. kolaborasi C. koersiD. arbitrasi 7. konflik yang kadang kadang terjadi antara generasi muda dengan generasi tua ditandai adanya perbedaan pandangan, sikap tingkah laku dan tutur kata. contoh konflik antargenerasi tersebut umumnya disebabkan oleh faktorA. umur/usia B. kepentingan C. perubahan sosialD. posisi masyarakat dalam 8. bentuk akomodasi konflik yang dibawa ke pengadilan disebutA. mediasi B. arbitrasi C. ajudikasi D. koersi&lt;br 9. konflik adalah untuk memperoleh nilai status kekuasaan, dimana tujuan dari mereka yang berkonflik, tidak hanya memperoleh keuntungan, tetapi untuk menunjukkan keinginannya hal ini dikemukakan oleh A.Robert MZ Lawang B. Soerjono Soekanto C. Pitirim A Sorokin D. Samuel koening 10. konflik antara kelompok buruh dengan pengusaha dapat dikategorikan sebagai bentuk konflik A. rasial B. politik C. pribadi D. kepentingan11. antara golongan tua sering terjadi ketidaksepahaman dengan golongan muda terkait dengan permasalahan kemajuan zaman. maka mereka kadang terlibat konflik yang disebabkan oleh A. perbedaan kepentingan B. perbedaan cara pandangan C. perbedaan usia D. perbedaan tingkat pendidikan12. konflik yang terjadi antara pemerintah yang sah dengan kaum oposisi umumnya dalam bentuk A. horizontalB. vertikal C. Politik D. kelas sosial13. salah satu manfaat dari konflik adalahA. konflik dapat menyelesaikan persoalan yang ada B. konflik dapat mengurangi ketegangan yang berkepanjanganC. dapat mempengaruhi pihak yang salah dan yang benar D. dapat memperkuat persatuan dan kesatuan kelompok14. yang dimaksud dengan konflik konstruktif adalah A. konflik yang melahirkan kebaikan-kebaikan B. konflik yang terjadi antara dua organisasi atau lebih C. konflik yang sulit menemukan jalan keluarnya D. konflik yang berakibat kerusakan-kerusakan 15. apabila dalam suatu sekolah terjadi konflik antara siswa yang satu dengan yang lain maka konflik tersebut termasuk konflik A. horizontal B. vertikal C. diagonal D. politik Tolong di jawab... Mohon bantuannya... maaf bila ada kesalahan kata... terima kasih</h2><br />
+                        <strong>Konflik</strong> yang dipicu oleh kelompok teroris menebar teror bom dapat diatasi dengan <strong>ajudikasi (B). </strong><strong>Konflik</strong> antara pembantu rumah tangga dan majikan karena upah yang tidak sesuai kesepakatan menjelaskan konflik terjadi karena <strong>perbedaan kepentingan (D). </strong>Proses sosial orang atau kelompok berusaha memenuhi tujuan dengan menentang pihak lawan disertai ancaman atau kekerasan merupakan definisi yang dikemukakan oleh <strong>Soerjono Soekanto (A). </strong>Reformasi 1998 dengan adanya kelompok pro dan kontra menunjukan <strong>konflik</strong> yang disebabkan oleh <strong>perbedaan kepentingan kelompok (A). </strong><strong>Konflik</strong> antara polisi pamong praja dan pedagang kaki lima disebabkan oleh <strong>faktor perbedaan kepentingan dan tujuan (D). </strong>Penyelesaian tawuran dengan melibatkan polisi dinamakan <strong>arbitrase</strong> <strong>(D). </strong><strong>Konflik</strong> antara generasi muda dan generasi tua merupakan contoh <strong>konflik</strong> yang disebabkan oleh <strong>umur/usia (A). </strong>Bentuk akomodasi <strong>konflik</strong> yang dibawa ke pengadilan <strong>ajudikasi (C). </strong><strong>Konflik</strong> untuk memperoleh nilai status kekuasaan untuk memperoleh keuntungan dan menunjukan keinginannya dikemukakan oleh <strong>Robert MZ Lawang (A). </strong>Konflik antar kelompok buruh dengan pengusaha dapat dikategorikan sebagai bentuk <strong>konflik kepentingan (D).</strong>Golongan tua dan muda sering terjadi ketidaksepahaman terkait kemajuan zaman. Dalam hal ini disebut <strong>konflik perbedaan cara pandangan (B). </strong>Konflik yang terjadi antara pemerintah sah dengan oposisi adalah <strong>konflik politik (C).</strong>Salah satu manfaat konflik adalah <strong>memperkuat persatuan dan kesatuan kelompok (D). </strong>Konflik konstruktif adalah konflik yang <strong>melahirkan kebaikan-kebaikan (A). </strong>Konflik antar siswa disebut <strong>konflik horizontal (A). </strong><p></p>Pembahasan<p>Soal di atas membahas soal pengertian konflik, pendorong terjadinya konflik, jenis konflik dan upaya penyelesaian konflik. </p><p></p><p>Adapun <strong>faktor pendorong konflik </strong>adalah:</p>Perbedaan antar individuPerbedaan kebudayaanPerbedaan kepentinganPerbedaan Ras dan EtnisPerbedaan agama<p></p>Pelajari lebih lanjutMateri tentang jenis-jenis konflik sosial https://brainly.co.id/tugas/2811052Materi tentang upaya penyelesaian konflik https://brainly.co.id/tugas/644167Materi tentang dampak positif dan negatif konflik https://brainly.co.id/tugas/118947<p></p>Detail jawaban<p><strong>Kelas</strong>: 11</p><p><strong>Mapel</strong>: Sosiologi</p><p><strong>Bab</strong>: Konflik Sosial dan Masyarakat</p><p><strong>Kode</strong>: 11.20.2</p><p></p><p><strong>#AyoBelajar</strong></p><p><strong>#SPJ2</strong></p><br />
+                                            <h2 class="ez-toc-section" id="what-to-do-after-high-school-graduationgoing-to-college-or-getting-a-job-right-after-graduating-high-school-is-the-common-choices-of-teens-will-likely-face-some-likely-choose-to-continue-studying-at">
+                            6. What to do After High School Graduation
+Going to college or getting a job right after graduating high school is the common choices of teens will likely face. Some likely choose to continue studying at college or university but the others try to find job. Here are the reasons.
+Why is it so important for student to continue on to post-secondary education; university or college? The reason is that post-secondary education will allow them to get the skills and tools that they will need to help them prepare for a good career. It has been said that the more education they have the more careers will be open for them to choose from. Employers today will tend to be more open to a person with the more education.
+However some of them choose to get job right after high school. They believe that education is critical but college is not. In fact, there are numerous careers, such as in healthcare, technology, operations, transportation, and the building trades, that do not require a four-year degree from college or university. Furthermore, as they advance in these careers, there is also nothing stopping them from pursing a college degree at a later age.So, what are you doing after graduating high school? Think carefully! The wrong decision may influence your future. But who knows the future? Believe to God and do the best!
+Questions: 1. What is the text talking about? 2. What is the choices that can be chosen after graduating? Mention! 3. What makes important in continuing study in the college? 4. What is the statement said by the cons side? 5. What does the employer today look like?​
+TAMBAHKAN JAWABAN
++5 POIN
+Tanyakan najlaamalia23 mengenai soal ini...
+najlaamalia23 menunggu jawabanmu.
+Bantu jawab dan dapatkan poin.
+Sedang mencari jawaban di buku B. inggris?
+Jelajahi perpustakaan buku sekolah kami, lengkap dengan pertanyaan dan solusi jawaban beserta langkah-langkahnya
+TEMUKAN JAWABAN
+Pertanyaan baru di B. inggris
+tolong ya jawabannya . tolong di isi kata kata nya pliss​
+Choose the correct answer by putting a tick​
+Tugas B.inggris tolong ya kak dijawab pki B.ingris juga​
+How many dogs does the writer have? * A. one B. two C. three D. four
+Bantu Dong Kaka-kaka,Besok Di kumpulin ​
+Susunlah kata yg masih acak itu menjadi kalimat yg benar. bantu jawab ya kak...... makasih​
+The are around 6000 Sumatran tigers living in the wild. (.....)​
+buatlah contoh dialog pendek Di Taman​
+complete the dialog below​
+why does mahendra apologize? does sonya forgive mahendra ? what do you call the underlined sentece ? what foes sonya say to take apart ?​
+MUAT LEBIH BANYAK
+Sebelumnya
+Berikutnya
+Tanyakan pertanyaanmu
+MENGETAHUI SEMUA JAWABAN
+Situs ini menggunakan cookie berdasarkan kebijakan cookie . Kamu bisa menentukan kondisi menyimpan dan mengakses cookie di browser
+PERUSAHAAN
+Tentang kami
+Karir
+Beriklan dengan kami
+Ketentuan Penggunaan
+Kebijakan Hak Cipta
+Kebijakan Privasi
+Kebijakan Cookie
+KOMUNITAS
+Komunitas Brainly
+Brainly untuk Sekolah &amp; Guru
+Komunitas Orang Tua
+Sumpah Kehormatan
+Pedoman Komunitas
+Brainly Insights
+Menjadi Sukarelawan
+BANTUAN
+Daftar
+Pusat Bantuan
+Pusat Keamanan
+Perjanjian Pengungkapan yang Bertanggung Jawab
+Dapatkan App Brainly
+Unduh App Android
+PINDAI PR-MU</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>Apa yang Harus Dilakukan Setelah Lulus SMA?
+</p><p>Pergi ke perguruan tinggi atau mendapatkan pekerjaan setelah lulus sekolah menengah adalah pilihan umum yang kemungkinan akan dihadapi remaja. Beberapa mungkin memilih untuk melanjutkan belajar di perguruan tinggi atau universitas tetapi yang lain mencoba mencari pekerjaan. Inilah alasannya.
+</p><p>
+</p><p>Mengapa sangat penting bagi siswa untuk melanjutkan ke pendidikan pasca sekolah menengah; universitas atau perguruan tinggi? Alasannya adalah bahwa pendidikan pasca sekolah menengah akan memungkinkan mereka untuk mendapatkan keterampilan dan alat yang mereka perlukan untuk membantu mereka mempersiapkan karir yang baik. Dikatakan bahwa semakin tinggi pendidikan yang mereka miliki, semakin banyak karir yang terbuka bagi mereka untuk dipilih. Pengusaha saat ini akan cenderung lebih terbuka kepada orang yang berpendidikan lebih tinggi.
+</p><p>
+</p><p>Namun beberapa dari mereka memilih untuk mendapatkan pekerjaan setelah sekolah menengah. Mereka percaya bahwa pendidikan sangat penting tetapi perguruan tinggi tidak. Sebenarnya, ada banyak karir, seperti dalam perawatan kesehatan, teknologi, operasi, transportasi, dan perdagangan bangunan, yang tidak memerlukan gelar empat tahun dari perguruan tinggi atau universitas. Selain itu, seiring dengan kemajuan karir mereka, tidak ada yang menghentikan mereka untuk mengejar gelar sarjana di usia yang lebih tua. Jadi, apa yang Anda lakukan setelah lulus SMA? Pikirkan baik-baik! Keputusan yang salah dapat mempengaruhi masa depan Anda. Tapi siapa yang tahu masa depan? Percaya kepada Tuhan dan lakukan yang terbaik!</p><p><strong>Penjelasan:</strong></p><p><strong>hanya bisa jawab bagian itu jangan kecewa ya:&lt;</strong></p><br />
+                                            <h2 class="ez-toc-section" id="feby-membeli-satu-karung-gandum-dengan-harga-rp100-00000-pada-karung-gandum-tertulis-bruto-20-kgdan-tara-5-jika-feby-menjual-gandum-dengan-harga-rp8-00000-per-kg-dan-semua-gandum-terjual-maka">
+                            7. Feby membeli satu karung gandum dengan harga Rp
+100.000,00, pada karung gandum tertulis bruto 20 kg
+dan tara 5%, jika Feby menjual gandum dengan harga Rp
+8.000,00 per kg dan semua gandum terjual, maka
+keuntungan ,maka keuntungan yang di terima adalah
+A. Rp 52.000,00
+C. Rp 64.000,00
+B.Rp 60.000,00
+D. Rp 152.000,00​
+TAMBAHKAN JAWABAN
++5 POIN
+Tanyakan 2010rahmiyati mengenai soal ini...
+2010rahmiyati menunggu jawabanmu.
+Bantu jawab dan dapatkan poin.
+Pertanyaan baru di Sejarah
+yesus menderita sengsara dan wafat pada saat pemerintahan gubernur​
+1. Siapakah Ted Bundy itu? 2. Perbuatan apa yang telah ia lakukan? Jelaskan secara terperinci!​
+Tembok Besar Cina sebagai benteng pertahanan dibangun pada masa .... Pilih jawaban Dinasti Xia Dinasti Chin Dinasti Han Dinasti Ming Dinasti Shang​
+Peradaban dan kemajuan sebuah bangsa dapat terwujud jika perdamaian terwujud dalam sebuah wilayah Negara. Prinsip ini dipegang betul oleh Sultan Al-Ka…
+Hieroglyf dipahat di ... Pilih jawaban a. Sphinx, tembok makam b. Sphinx, daun papyrus c. Dinding makam, daun papyrus d. Rumah Firaun, sphinx e. Keraj…
+Kegiatan perdagangan Mesopotamia didominasi pertukaran dengan masyarakat... Pilih jawaban a. Shindu b. Arya c. Semit d. Babylonia e. Sumeria​
+Bangsa .... dan .... tercatat sebagai masyarakat di daerah Mesopotamia. Pilih jawaban a. Sumeria, Akkadia b. Assyria, Aztec c. Semit, Sumeria d. Sumer…
+apa nilai yang di cerminkan saat berbuat adil kepada orang lain ?​
+7 Jelaskan mengapa jepang tidak diterima oleh banyak golongan umat Islam Di Indonesia?​
+kerajaan samudra pasai mengalami perkembangan perekonomian yang cukup pesat sebagai akibat dari kondisi a. kebijakan ekonomi yang menitikberatkan pada…
+Kuo-Yu adalah... Pilih jawaban a. Mata uang tunggal dalam perdagangan b. Daerah perdagangan di sekitar lembah sungai Hwang Ho c. Bahasa persatuan masy…
+Bangsa Aria di masa lampau diyakini mendiami daerah... Pilih jawaban Sutkagedon Lembah Sungai Gangga Mohenjo Daro Harappa Sumeria​
+... adalah pusat perdagangan di lembah sungai Shindu karena posisinya yang strategis dapat dicapai melalui darat dan laut. Pilih jawaban a. Sumeria b.…
+Tuliskan 2 contoh pelayan Tuhan yesus ​
+Kehadiran perusahaan multinasional memunculkan kontroversi. Di satu pihak kehadiran tersebut dianggap mewakili imperialisme baru (dalam hal ekonomi). …
+BUAT TUGAS DALAM BENTUK RESUME TENTANG 1. KERAJAAN - KERAJAAN ISLAM DI KALIMANTAN 2. KERAJAAN - KERAJAAN ISLAM DI SULAWESI 3. KERAJAAN - KERAJAAN ISAM…
+buatlah dalam bentuk diagram garis unsur hikayat​
+tumpuan kaki pada dinding kolam saat hendak meluncur bertujuan​
+Membuat 10 soal Pilihan ganda beserta ku​nci jawaban materi tentang "Islamisasi, jaringan perdagangan Nusantara, kerajaan Islam" ​
+sebutakan tata cara sholat fardhu lengkap dan dapat difahami jawaban harus benar kalau benar saya akan menjadi kan jawaban itu sebagai jawaban tercerd…
+MUAT LEBIH BANYAK
+Sebelumnya
+Berikutnya</h2><br />
+                        <p></p><p><strong>Penjelasan dengan langkah-langkah:</strong></p><p>jawaban silahkan lihat pada gambar </p><p></p><br />
+                                            <h2 class="ez-toc-section" id="tugas-ppkn-5dikerjakan-di-buku-latihan-ppkn-dan-ditulis-soalnya1-berikut-ini-merupakan-contoh-pembiasaan-perilaku-sesuai-nilai-nilai-pancasila-dalam-lingkungan-kehidupan-bermasyarakat-ialah-a">
+                            8. TUGAS PPKn 5:
+Dikerjakan di Buku Latihan PPKn, dan diTulis Soalnya!
+1. Berikut ini merupakan contoh pembiasaan perilaku sesuai nilai-nilai Pancasila dalam lingkungan kehidupan bermasyarakat ialah...
+A. suka mengalah dalam pergaulan
+B. mengembangkan sikap toleransi 
+C. mengikuti kegiatan para pemuda
+D. saling membantu antar anggota keluarga
+2. Koperasi merupakan salah satu contoh wujud nyata perwujudan dari nilai-nilai Pancasila yang mencerminkan sikap kekeluargaan dan kegotongroyongan dalam kehidupan bermasyarakat dan bernegara di bidang...
+A. sosial
+B. budaya
+C. ekonomi
+D. usaha kecil menengah
+3. Keterbukaan ideologi Pancasila yang mampu berinteraksi secara dinamis dan mampu menyesuaikan diri dengan perkembangan zaman mengandung nilai praksis yaitu...
+A. hakikat dari kelima sila Pancasila
+B. nilai dasar yang bersifat tetap dan melekat pada kelangsungan hidup negara
+C. realisasi dari pengalaman nyata dalam kehidupan sehari-hari
+D. penjabaran lebih lanjut dari nilai dasar Pancasila
+4. Saat ini ancaman terhadap Pancasila sebagai dasar negara tidak lagi dihadapkan pada pemberontakan yang ingin mengganti Pancasila dengan ideologi lain melainkan pada kondisi kehidupan masyarakat Indonesia yang diwarnai oleh kehidupan yang serba bebas tanpa batas seperti kebebasan berekspresi dan sebagainya dimana di satu sisi dapat memacu kreativitas masyarakat, tapi di sisi lain bisa mendatangkan dampak negatif bagi bangsa Indonesia.
+Sikap yang konstruktif sebagai warga negara dalam menyikapi hal tersebut adalah...
+A. melakukan sesuatu sesuai yang haknya
+B. menutup diri terhadap perubahan
+C. hidup bebas tanpa ada yang membatasi
+D. menjaga diri dari kebebasan tanpa batas
+5. Perhatikan wacana berikut!
+Pemilu di Indonesia merupakan salah satu contoh perwujudan nilai-nilai Pancasila dalam bidang politik yang secara periodik menjadi sarana bagi masyarakat Indonesia untuk memilih calon-calon wakil mereka baik di eksekutif maupun legislatif. Proses  pemilu dilaksanakan dengan aturan yang jelas dari lembaga penyelenggara pemilu KPU dengan menerapkan asas langsung, umum, bebas, rahasia, jujur dan adil (luber jurdil) baik bagi peserta pemilu maupun pemilih untuk menyelenggarakan pemilu yang mampu menghasilkan pemimipin yang berkompeten dan dipercaya oleh masyarakat dengan tertib dan damai.
+Kesimpulan yang tepat dari informasi yang disampaikan dalam wacana tersebut adalah...
+A. menjamin bahwa di Indonesia terdapat lembaga penyelenggara pemilu, lembaga legislatif dan lembaga eksekutif yang dipilih langsung oleh masyarakat melalui pemilu
+B. menjamin terselenggaranya proses pergantian kepemimpinan secara teratur, bukan atas dasar keturunan, mengangkat diri sendiri atau perebutan kekuasaan
+C. menjamin terselenggaranya pemilu pertama di Indonesia tahun 1955 yang berasas langsung, umum, bebas, rahasia, jujur dan adil
+D. menjamin terselenggaranya pemilu dengan asas langsung, umum, bebas, rahasia, jujur dan adil untuk memilih anggota legislatif, eksekutif dan yudikatif
+Tolong di jawab yah mau di kumpul hari ini:)!</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.  B</p><p>2. C</p><p>3. B</p><p>4. D</p><p>5. D</p><p></p><p>Maaf Ya Kalo Salah</p><br />
+                                            <h2 class="ez-toc-section" id="ppkn-kd-3-31-contoh-keberagaman-yang-ada-di-indonesia-adalah-a-suku-agama-dan-presidenb-suku-ras-dan-budayac-agama-negara-dan-keseniand-agama-negara-dan-presiden2-faktor-penyebab-keber">
+                            9. PPKn (KD 3.3)1. Contoh keberagaman yang ada di Indonesia adalah ....A. Suku, agama dan presidenB. Suku, ras dan budayaC. Agama, negara dan kesenianD. Agama, negara dan presiden2. Faktor penyebab keberagaman di Indonesia adalah ....A. Pernah dijajah selama ratusan tahunB. Pernah mengalami krisis ekonomiC. Kondisi negara Indonesia yang berbentuk kepulauanD. Kemajuan ilmu teknologi dan komunikasi3. Semboyan Persatuan Indonesia adalah ....A. Tut Wuri HandayaniB. Bhinneka Tunggal IkaC. Sumpah PalapaD. Garuda Pancasila4. Contoh musyawarah di kelas ....A. melakukan piket kelasB. memilih ketua kelasC. mengerjakan tugas mandiriD. mengerjakan ulangan dengan jujur5. Berikut ini yang termasuk keberagaman di bidangbudaya adalah ....A. Agama, bahasa dan rumah adatB. Pakaian, rumah adat dan makananC. Warna kulit, alat musik dan agamaD. Bahasa, rumah adat dan agamaBahasa Indonesia (KD 3.5)6. Penulisan nama kota dan tanggal surat yang benaradalah ....A. Jakarta; 16 Agustus 2018B. Jakarta. 16 Agustus 2018C. Jakarta: 16 Agustus 2018D. Jakarta, 16 Agustus 2018Baca teks berikut untuk menjawab soal no 7-9 !Pembacaan teks Proklamasi Kemerdekaan dilaksanakanpada hari Jum'at tanggal 17 Agustus 1945. Sejak pagi, telahdilakukan persiapan di rumah Ir. Soekarno, untuk menyambutProklamasi Kemerdekaan Indonesia. Banyak tokohpergerakan nasional beserta rakyat berkumpul di tempat itu.Mereka ingin menyaksikan pembacaan teks ProklamasiKemerdekaan Indonesia. Sesuai kesepakatan yang diambildi rumah Laksamana Maeda, para tokoh Indonesia menjelangpukul 10.30 Waktu Jawa Zaman Jepang atau pukul 10.00WIB telah berdatangan ke rumah Ir. Soekarno.7. Siapa yang membaca teks proklamasi....A. Ir. Soekarno.B. Moh. HattaC. SoepomoD. Laksamana Maeda​8. Dimana teks proklamasi dibacakan ....A. Di museumB. Di rumah Laksamana MaedaC. Di rumah SoekarnoD. Istana presiden9. Peristiwa penting apa yang terjadi pada teks di atas..A. Sumpah PemudaB. Persatuan IndonesiaC. Kedaulatan Republik IndonesiaD. Pembacaan teks proklamasi​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>jawabnya sebisaku. tolong kasi jawaban tercerdas</p><p><strong>Penjelasan:</strong></p><p>1. B suku, ras, budaya</p><p>2.C kondisi negara kepulauan</p><p>3. B Bhineka tunggal Ika</p><p>4. B. memilih ketua kelas</p><p>5. B pakaian, rumah adat, makanan</p><p>6. D. </p><p>7. A. Ir Soekarno</p><p>8. C. rumah Soekarno</p><p>9. D. pembacaan teks proklamasi</p><p>udah semua. tolong kasi jawaban tercerdas, like nya </p><br />
+                                            <h2 class="ez-toc-section" id="5-asesmen-sumatif-bab-a-berilah-tanda-silang-x-pada-huruf-a-b-c-atau-d-sebagai-alternatif-jawaban-yang-paling-tepat-3-1-penerapan-nilai-nilai-pancasila-dalam-kehidupan-sehari-hari-penting-untu">
+                            10. 5 Asesmen Sumatif Bab A Berilah tanda silang (X) pada huruf A, B, C, atau D sebagai alternatif jawaban yang paling tepat! 3. 1. Penerapan nilai-nilai Pancasila dalam kehidupan sehari-hari penting untuk dilaksanakan oleh 4. seluruh warga Indonesia, karena Pancasila berkedudukan sebagai A. pedomankehidupan berbangsa dan bemegara bagi rakyat Indonesia B. buah dari hasil perjuangan para pendiri bangsa Indonesia C. hasil keputusan musyawarah sidang-sidang di dalam lembaga negara D. dasar dari nilai-nilai sosial dan budaya masyarakat Indonesia pertama Pancasila mengandung makna bahwa dalam kehidupan bermasyarakat pastilah akan ditemui adanya perbedaan dalam hal 2. Sila 5. Modul Pendamping Belajar D. menghormati serta kepada orang tua Penerapan pengamalan sila Ketuhanan Yang Maha Esa dalam kehidupan masyarakat adalah.... A. menengok teman yang sakit jika beragama yang sama bekerja sama dalam segala hal B. termasuk hal keyakinan agama. C. tidak memaksakan orang lain untuk memeluk agama tertentu D. bekerja sama hanya dengan teman seagama saja Ketika musyawarah sedang berlangsung ada peserta sedang menyampaikan pendapatnya, maka sikap kita sebaiknya adalah patuh **** A. mendengarkan dan menyela jika ada pendapat yang tidak sesuai. B. mengacuhkan karena tidak sesuai pendapatnya. C. mendengarkan dengan baik sampai dia selesai berbicara. D. mendengarkan sambil berbincang dengan teman sebelah. A. suku bangsa dan bahasa B. kepercayaan dan agama C. kepercayaan dan Bahasa D. agama dan suku bangsa Contoh penerapan sila kedua di lingkungan keluarga adalah A. selalu ringan tangan apabila dimintai bantuan guru atau 6. Contoh pengamalan sila Keadilan Sosial Bagi Seluruh Indonesia yang dalam kehidupan Rakyat bermasyarakat adalah teman. B. memiliki rasa simpati sertal empati terhadap teman sakit C. menjaga sikap dan senantiasa bersikap sopan dalam berbagai kondisi A. suka memberikan pertolongan kepada orang yang membutuhkan in Pancasila untuk SD/MI Fase A Kal menghormati umat beragama lain melaksanakan ibadahnya C. mencintai tanah air dan bangga sebagai bangsa Indonesia D. melaksanakan setiap hasil 9. Perbuatan musyawarah dengan tanggung musyaw jawab 7 B. selalu oleh Kamil adalah anak yang ringan tangan, ia mengikuti kegiatan gotong royong yang masyarakat. Tidak heran jika ia disukai oleh masyarakat karena perilakunya. wasyond Perilaku Kamil merupakan contoh ACACION penerapan pancasila sila..... A. kedua dilakukan TUN B. ketigal C. keempat D. kelima 8. Para pahlawan kemerdekaan rela WARN mengorbankan nyawa, harta dan keluarganya demi kemerdekaan NKRI. Perjuangan para pahlawan merupakan contoh penerapan Pancasila sila .... A B. kedua ketiga C. keempat D kelima. yang termasuk beribadah yang berhubungan dengan sesama manusia adalah.... A. menjenguk teman yang sakit B. membantu teman mengerjakan PR C. menceritakan kebaikan teman D. memberikan jawaban soal kepada teman 10. Contoh penerapan sila kelima dalam kehidupan bermasyarakat adalah.... A. tidak memaksakan kehendak kepada orang lain dalam musyawarah B. tidak membeda-bedakan orang berdasarkan latar belakangnya C. tidak semena-mena kepada orang lain D. tidak memaksakan agama yang dianut kepada orang lain B. Isilah titik di bawah ini dengan jawaban yang tepat! 1. Manusia memiliki derajat yang sama, karenanya kita harus saling mencintai dan menghormati sesama manusia, di mana pun kita berada. Pernyataan ini merupakan perwujudan pengamalan Pancasila terutama sila.... 2. Sila keempat mengajarkan kita sebagai warga negara Indonesia untuk. mengutamakan ... dalam menyelesaikan masalah bersama. 3. Perhatikan gambar berikut! Kegiatan yang ditunjukkan oleh gambar, merupakan contoh penerapan Pancasila. dalam kehidupan bermasyarakat, terutama pada sila....​</h2><br />
+                        <p>Berikut adalah jawaban untuk Asesmen Sumatif Bab A:</p><p></p><p>3. A. pedoman kehidupan berbangsa dan bermegara bagi rakyat Indonesia</p><p>5. B. termasuk hal keyakinan agama.</p><p>7. C. mendengarkan dengan baik sampai dia selesai berbicara.</p><p>9. B. kepercayaan dan agama</p><p>10. C. menjaga sikap dan senantiasa bersikap sopan dalam berbagai kondisi</p><p>11. B. ketiga</p><p>13. A. kedua</p><p>15. C. keempat</p><p>17. D. kelima</p><p>19. A. menjenguk teman yang sakit</p><p>20. B. tidak membeda-bedakan orang berdasarkan latar belakangnya</p><p></p><p>B. Isilah titik di bawah ini dengan jawaban yang tepat!</p><p>1. Sila kelima</p><p>2. Musyawarah dan mufakat</p><p>3. Sila ketiga</p><p></p><p></p><p></p><p></p><p>Kalo ada kesulitan bisa ditanyakan saja 081575085273(gratis).</p><br />
+                                            <h2 class="ez-toc-section" id="gempa-bumi-belakangan-ini-gempa-bumi-menjadi-buah-bibir-di-kalangan-masyarakat-indonesia-sepanjang-sejarah-umat-manusia-gempa-selalu-saja-menimbulkan-kerugian-baik-materi-maupun-korban-jiwa-tidak-b">
+                            11. Gempa bumi Belakangan ini gempa bumi menjadi buah bibir di kalangan masyarakat Indonesia. Sepanjang sejarah umat manusia, gempa selalu saja menimbulkan kerugian baik materi maupun korban jiwa. Tidak berlebihan rasanya jika dikatakan bahwa fenomena gempa bumi adalah peristiwa yang berdampak secara langsung kepada makhluk hidup tidak terkecuali manusia. Hal tersebut menjadikan gempa bumi sebagai salah satu bencana alam yang ditakuti oleh setiap orang. 1. Jika dilihat dari struktur teks eksplanasi, teks tersebut adalah bagian dari … A. Kronologis (urutan peristiwa) B. Sebab atau akibat C. Pengenalan objek D. Asal-usul peristiwa E. Kesimpulan 2. Pada teks eksplanasi di atas terdapat kata yang menjadi penunjuk waktu. Kata tersebut adalah … A. Belakangan ini B. menjadikan C. tidak berlebihan D. berdampakE. menimbulkan Perhatikan kutipan berikut ini untuk menjawab soal nomor 3-4! Bioteknologi adalah istilah yang berasal dari bahasa latin yang terdiri atas kata bio yang berarti “hidup” dan teknos yang berarti “teknologi” serta logos yang berarti “ilmu”. Selanjutnya boiteknologi diartikan sebagai kajian ilmu terapan yang konsen terhadap rangkaian proses biologis dalam rangka menghasilkan barang dan jasa yang menerapkan prinsip sains. Perkembangan bioteknologi tak hanya didasarkan pada cabang keilmuan biologi saja, namun juga pada disiplin ilmu terapan lainnya semisal biologi molekuler, komputer, biokimia, genetika, kimia, mikrobiologis, matematika , dan lain sebagainya. 3. Pernyataan di bawah ini yang sesuai dengan teks di atas adalah...A. Bioteknologi adalah cabang dari keilmuan teknologi B. Bioteknologi bukanlah keilmuan murni C. Bioteknologi diciptakan untuk mencari keuntungan D. Bioteknologi adalah hasil penerapan teknologi terhadap proses biologis E. Peristiwa biologis yang menjadi dasar adanya perkembangan bioteknologi 4. Teks di atas menggunakan pola pengembangan … A. Contoh B. Definisi C. Klasifikasi D. Kronolgis E. Proses 5. Teks eksplanasi ditulis untuk menjawab pertanyaan … A. Apa dan siapa B. Kapan dan dimana C. Bagaimana dan mengapa D. Berapa dan bagaimana E. Siapa dan mengapa 6. Berikut ini ciri-ciri teks eksplanasi, kecuali … A. Struktur terdiri atas pernyataan umum, deretan penjelas, dan penutup B. Memuat informasi sesungguhnya/fakta C. Memuat informasi yang bersifat keilmuan D. Menjelaskan suatu kondisi atau fenomena E. Berisi langkah-langkah kerja Perhatikan kalimat berikut ini! (1) Agar selalu terhindar dari bencana alam gempa bumi (2) Penduduk dekat gunung berapi harus selalu waspada (3) Gempa bumi sering terjadi di daerah gunung yang berapi (4) Gempa bumi adalah getaran yang terjadi karena pergerakan lapisan bumi 7. Susunlah kalimat tersebut menjadi urutan yang tepat …A. (4),(3),(2),(1) B. (3),(2),(4),(1) C. (1),(3),(2),(4) D. (1),(2),(3),(4) E. (2),(1),(3),(4) 8. Berikut ini yang tidak termasuk kalimat yang menggunakan keterangan waktu adalah … A. Pada usia dua minggu, embrio manusia merupakan sebuah cakram pipih B. Pada bulan ketiga, bentuk manusia telah terwujud C. Pada tahap ini, embrio disebut fetus D. Selama bulan keenam, alis dan bulu mata timbul E. Lemak ditimbun di bawah kulit sehingga perlahan-lahan menghilang keriput pada kulitBacalah teks di bawah ini untuk menjawab soal nomor 9-10! Presiden Soekarno beserta rombongannya memasuki lapangan. Presiden melakukan pidato dan bendera merah putih pun dikibarkan. Untuk menghindari insiden dengan tentara jepang, Bung Karno hanya menyampaikan sedikit pesan kepada rakyat agar tetap percaya kepada pimpinan. Masyarakat kembali ke tempat mereka masing-masing dengan tertib dan tenang 9. Teks di atas menjelaskan peristiwa … A. Pidato Presiden Soekarno di lapangan B. Penyambutan Presiden Soekarno C. Perlawanan rakyat terhadap jepang D. Ketertiban dan ketenangan masyarakat E. Hubungan baik pemimpin dengan rakyatnya 10. Keterangan cara dinyatakan dalam kalimat … A. Pertama B. Kedua C. Ketiga D. Keempat E. pertama dan kedua​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.b</p><p>2.a</p><p>3.a</p><p>4.-</p><p>5.b</p><p>6.e</p><p>7.e</p><p>8.e</p><p>9.a</p><p>10-</p><p><strong>Penjelasan:</strong></p><p>maaf kalo salah ya:)</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-emile-durkheim-merupakan-tokoh-sosiologi-yang-berasal-dari-perancis-sebagai-salah-satu-peletak-dasar-sosiologi-ia-mengatakan-bahwa-sosiologi-mempelajari-tentang-a-tindakan-sosialb-realitas-s">
+                            12. 1. Emile Durkheim merupakan tokoh sosiologi yang berasal dari Perancis. Sebagai salah satu peletak dasar sosiologi, ia mengatakan bahwa sosiologi mempelajari tentang....A. tindakan sosialB. realitas sosialC. struktur sosialD. imajinasi sosiologiE. fakta sosial2. Berikut ini merupakan objek kajian sosiologi yaitu ....A. masyarakat dan individuB. manusia dan kepribadianC. interaksi dan komunikasiD. hukum dan HAME. integrasi sosial dan kesetaraan sosial3. Sosiologi berguna dalam proses pembangunan yang dilaksanakan pemerintah. Berikut ini merupakan contoh fungsi sosiologi dalam pembangunan yaitu ....A. melakukan penelitian tentang rancangan bangunanB. melakukan pengumpulan data tentang kondisi geografis wilayahC. memberikan keputusan yang tepat tentang kebijakan pemerintah dalam program pembangunanD. memberikan data yang diperlukan untuk melakukan perencanaan sosialE. melaksanakan reduksi data dari hasil penelitian4. Masyarakat berbondong-bondong pindah ke kota-kota besar untuk mencari peluang kerja. Tentu saja hal ini menyebabkan berbagai masalah sosial pada kota-kota tujuan. Ditambah lagi, jika masyarakat yang pindah ke kota besar belum memiliki keterampilan yang mencukupi. Cara untuk mengatasi permasalahan pendatang di kota besar adalah....A. mempercepat pembangunan dan menciptakan lapangan kerja di setiap daerahB. kebanyakan penduduk desa bekerja di sektor pertanianC. keberadaan pemukiman kumuh memang menjadi alternatif bagi pendatang yang belum mendapatkan tempat tinggal D. urbanisasi dihilangkan agar tidak terjadi terjadi kepadatan pendudukE. memberikan pendatang modal usaha dan tempat tinggal5. Ketika teman-temannya menggunakan bocoran kunci jawaban UN, Gusti memilih untuk tidak menggunakannya dan mengandalkan kemampuannya sendiri dalam menjawab soal. Sikap yang ditunjukkan oleh Gusti tersebut merupakan sikap yang sesuai dengan norma sosial. Dalam hal ini norma sosial berfungsi sebagai....A. alat untuk menertibkan masyarakatB. pengendalian tingkah lakuC. sistem kelola masyarakatD. pandangan hidupE. kebiasaan sehari-hari​Beserta alasan /penjelasannya ya kk</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1. E Fakta Sosial </p><p>2. A Masyarakat dan individu</p><p>3. D Memberikan data yang diperlukan untuk melakukan perencanaan sosial</p><p>4. D Urbanisasi dihilangkan agar tidak terjadi terjadi kepadatan penduduk</p><p>5. B Pengendalian tingkah laku</p><br />
+                                            <h2 class="ez-toc-section" id="bacalah-teks-berikut-untuk-menjawab-soal-nomor-1-dan-2-perempuan-memang-paling-rentan-terhadap-anemia-terutama-anemia-karena-kekurangan-zat-besi-darah-memang-sangat-penting-bagi-perempuan-hal-ini">
+                            13. Bacalah teks berikut untuk menjawab soal nomor 1 dan 2.
+Perempuan memang paling rentan terhadap anemia, terutama anemia karena kekurangan zat besi. Darah memang sangat penting bagi perempuan. Hal ini terutama pada saat hamil, saat zat besi itu dibagi dua, yaitu bagi si ibu dan janinnya. Jika si ibu anemia, bisa terjadi abortus, lahir premature, dan juga kematian ibu melahirkan . Padahal, kita ingat, di Indonesia , angka kematian ibu melahirkan dan kematian bayi masih cukup tinggi. Bahkan, bagi janin, zat besi juga dibutuhkan, terutama juga ada kaitannya dengan kecerdasan.
+1. Teks di atas membicarakan . . . .
+a. Anemia pada perempuan
+b. Bahaya melakukan abortus
+c. Zat besi pada bayi
+d. Kebutuhan zat besi pada ibu hamil
+e. Tingginya angka kematian ibu melahirkan 
+2. Masalah diskusi yang dapat diangkat dari teks tersebut adalah . . . .
+a. Anemia penyakit berbahaya pada ibu melahirkan 
+b. Cara memelihara janin
+c. Kondisi ibu-ibu di Indonesia 
+d. Tingginya angka kematian ibu melahirkan
+e. Pengaruh zat besi pada ibu-ibu dan anak-anak 
+Bacalah teks berikut untuk menjawab soal nomor 3 dan 4.
+Maaf, Saudara pemakalah. Saya punya pendapat yang sebaiknya dengan Saudara. Menurut saya, upaya pemerintah dalam memberikan Sembako kepada rakyat miskin itu tidaklah mendidik karena yang lebih tepat adalah dengan penyediaan lapangan kerja yang memadai bagi mereka. 
+3. Hal yang disanggah di dalam tanggapan di atas adalah . . . .
+a. Pemberian sembako
+b. Sistem Pendidikan 
+c. Kelangkaan lapangan kerja
+d. Kemiskinan rakyat yang perlu ditanggulangi pemerintah
+e. Lemahnya pemerintah Jawa Barat dalam penyediaan lapangan kerja
+4. Dalam teks tersebut terdapat kalimat yang tidak efektif karena kesalahan penulisan huruf kapital, yakni pada kata . . . .
+a. Maaf
+b. Saudara
+c. Pemerintah
+d. Sembako
+e. Menurut
+5. Pendapat yang Anda katakan tadi salah.
+Kata yang harus diperbaiki di dalam kalimat di atas agar lebih santun adalah . . . .
+a. Pendapat
+b. Anda
+c. Katakan
+d. Tadi 
+e. Salah
+6. Berikut yang termasuk contoh kalimat efektif adalah . . . .
+a. Atas perhatiannya, saya ucapkan terima kasih
+b. Kakeknya mengajar ilmu kedigjayaan di perguruan ini.
+c. Tahun ini upeti para penggawa kerajaan baru saja dinaikkan
+d. Petapa itu menceritakan pengalaman masa kecilnya
+e. Di pendopo ini kami dipelajarkan berbagai ilmu kedigjayaan.
+7. Kalimat yang tepat pilihan katanya adalah . . . .
+a. Terima kasih atas kesempatan yang diberikan kepada saya
+b. Pemimpin upacara dipersilahkan untuk mengambil tempat
+c. Untuk mempersingkat waktu, baiklah saya mulai diskusi ini
+d. Selanjutnya sambutan Bapak Camat, waktu kami persilahkan 
+e. Para hadirin dapat dipersilahkan mengisi tempat deretan depan
+8. Seorang penyaji menyampaikan makalahnya dengan topik “Pengaruh rokok terhadap kesehatan”. Selain pengaruh negatif, disampaikan juga pengaruh-pengaruh positif. Seorang peserta menolak pendapat tentang pengaruh-pengaruh tersebut.
+Kalimat penolakan yang tepat dan sesuai dengan sopan santun berdiskusi adalah . . . .
+a. Saudara moderator, saya menolak pendapat tersebut karena tidak didukung oleh data yang cukup.
+b. Saudara moderator, saya kurang menerima pendapat tersebut karena masih perlu dilengkapi dengan data yang lain.
+c. Saudara moderator, saya tidak sependapat karena tidak sesuai dengan kenyataan.
+d. Saudara moderator, saya tidak menyetujui pendapat tersebut karena sulit untuk dilaksanakan.
+e. Saudara moderator, pendapat tersebut perlu ditinjau kembali karena dalam kenyataannya pengaruh positif merokok sukar dibuktikan.
+9. Pendapat yang disampaikan pemakalah menurut saya salah, tidak sesuai dengan fakta di lapangan.
+Tanggapan di atas tidak memperhatikan kesantunan berbahasa. Kata yang perlu diperbaiki dalam tanggapan itu adalah . . . .
+a. Fakta diganti data
+b. Disampaikan diganti diutarakan 
+c. Salah diganti kurang tepat
+d. Menurut saya dengan anggapan saya
+e. Tidak sesuai dengan tidak selaras 
+10. Penulisan makalah ini didasari oleh kenyataan di lapangan atas banyaknya calon tenaga kerja yang tidak bisa menghadapi pewawancara. Mereka sering kali gugup dan tidak bisa menyampaikan kemampuan dirinya secara optimal. Padahal, kalau mental mereka dipersiapkan dengan baik, potensi dan kemampuan mereka bisa ditunjukkan dengan semestinya kepada pihak yang mewawancarainya.
+Di dalam makalah, bagian tersebut harus dituangkan dalam bagian . . . .
+a. Pembahasan
+b. Latar belakang 
+c. Perumusan masalah
+d. Manfaat pemecahan masalah
+e. Prosedur pemecahan masalah</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.d </p><p>2.d</p><p><strong>Penjelasan:</strong></p><p>maaf saya taunya itu doang maaf klo salah</p><p></p><br />
+                                            <h2 class="ez-toc-section" id="1-berikut-ini-ialah-contoh-penggalan-teks-laporan-yang-disusun-atas-dasar-pola-urutan-waktu-yaitu-%e2%80%a6a-kantor-kelurahan-menghadap-arah-depan-mushola-batas-pagar-mushola-hanya-berselang-sekita">
+                            14. 1. Berikut ini ialah contoh penggalan teks laporan yang disusun atas dasar pola urutan waktu yaitu …a. Kantor kelurahan menghadap arah depan mushola. Batas pagar mushola hanya berselang sekitar 3 meter saja.b. Ketika istirahat kami makan bersama sambil mengobrol ringan sebagai periang istirahat kami.c. Setelah melintasi pemakaman, sekitar 200 meter kamu akan menemukan toko buah. Disitulah rumah sayad. Pak bejo namanya. Ia selalu beruntung dalam hal apapun sesuai dengan namanya2. Tujuan teks laporan adalah …a. memberikan informasi perstiwa yang belum terjadib. Memberikan suatu informasi secara umum kepada pembacac. untuk memberikan penjelasan tentang suatu perisiwad. pembukuan suatu peristiwa3. Salah satu struktur dalam teks laporan adalah …a. kesimpulan umumb. daftar isic. teorid. klarifikasi umumBaca teks laporan berikut ini untuk menjawab soal pada nomor 4 dan 5 :Hampir setiap hari kalian bisa menemukan tempat pemujaan didesaku. Taburan bunga kamboja yang banyak selalu menghiasi tempat pemujaan tersebut. Seperti pada bagian pinggir sebelah kiri tempat itu, terdapat seonggok tanah liat yang tak tahu mengapa benda itu harus berada di sana. Sedangkan di bagian sebelah kanan terdapat asap dari lampu sentir yang semakin lama menjadi menghitam.4. Potongan teks laporan di atas tersusun atas pola …a. Sebab-akibatb. Waktuc. Perbandingand. Ruang / tempat5. Penggalan teks laporan di atas mengandung makna tentang …a. budaya kebersihanb. budaya perdukunanc. kondisi di suatu tempatd. kebiasaan masyarakat sekitar6. Bagaimana kondisi para pendaki gunung semeru yang hilang setelah dua hari baru diketemukan oleh tim SAR?Pertanyaan di atas erat kaitannya dengan pernyataan …a. alasan para korban hilang untuk dicarib. kondisi para korban hilang yang baru 2 hari bisa diketemukanc. Mengapa mereka harus menghilangd. Latar belakang hilangnya para pendaki gunung semerue. Melakukan pencarian dan baru 2 hari setelah pencarian merupakan hal yang tidak mudah7. Struktur dalam wawancara adalah kecuali …a. awal wanwancarab. tengah wawancarac. akhir wawancarad. waktu wawancaraBacalah penggalan reportase berikut ini untuk menjawab soal nomor 8 dan 9!Pewawancara : sejak kapan bapak mulai ditugaskan sebagai prajurit dipedalaman ini?Nara sumber : …8. Pertanyaan pewawancara tersebut ditujukan kepada …a. Pegawai BUMNb. Anggota Prajurit TNIc. Anggota DPR RId. Guru9. Jawaban yang tepat untuk melengkapi ruang rumpang pada reportase di atas adalah …a. Saya mengabdi sebagai prajurit dipedalaman ini sejak tahun 2013b. Saya sudah menjalani aktivitas sebagai prajurit sejak tahun 2013c. Sejak tahun 2013, saya sudah berkeliling Indonesiad. Pada tahun 2013, saat dimulainya ulang tahun kemerdekaan10. Perhatikan susunan kalimat berikut!Akibat terjatuh dari pohon yang terjadi 10 tahun yang lalu membuatnya buta.Kata yang dicetak tebal tersebut agar lebih santun sebaiknya disubtitusikan dengan …a. Kehilangan penglihatannyab. Kehilangan kedua matanyac. Kehilangan pendengarannyad. Kehilangan akal sehatnya11. Struktur dalam teks pidato adalah kecuali …a. isi pidatob. pembukaanc. penutupd. daftar isi12. Sikap saat membaca teks pidato yang harus diperhatikan yaitu ketika membaca harus …a. Tenang dan membaca dengan sedikit santaib. Bersikap biasa atau apa adanyac. Khidmat, tenang, tidak gugup, membaca dengan suara yang keras sekalid. Bersikap tenang, khidmat dan membaca dengan keras, tetapi tidak berteriak agar peserta upacara mendengar13. Berikut ini adalah penggalan cerita yang dapat diceritakan kembali dengan ekspresi mencekam adalah ….a. Baru tadi sore berita tersebar. Kabar itu pun menjadi pembicaraan para tetangga. Kebetulan yang Hendri pun belum mengetahui.b. Di sebuah desa hiduplah seorang laki-laki bernama Hendro. Suatu ketika Hendro ingin sekali berguru kepada seorang pendeta yang sedang bertapa seorang diri di lereng Gunung.c. Malam, udara sangat dingin, lebih dingin dari malam-malam sebelumnya. Suasana pun tampak sangat sepi, jam menunjukkan angka sepuluh malam.d. Aku mempunyai dua ekor kucing. Namanya, Mei dan Mul. Aku takut kehilangan mereka karena sangat sayang sama mereka.14. Teks deskripsi adalah …a. teks yang menggambarkan atau menjelaskan tentang suatu objekb. teks yang berisikan tentang kisah hidup seseorangc. teks yang bersifat laporand. teks yang menjelaskan tentang jalan hidup seseorang15. Struktur teks deskprisi adalah …a. indentifikasi dan deskripsib. narasi dan komedic. narasi dan deskripsid. indentifikasi dan narasi​</h2><br />
+                        <p><strong>Bismillah semoga jawabannya benar</strong></p><p><strong>Jawaban:</strong></p><p><strong>1. A. kantor kelurahan menghadap arah depan mushola.batas pagar mushola hanya berselang sekitar 3 meter saja.</strong></p><p><strong></strong></p><p><strong>2. B. memberikan informasi secara umum kepada pembaca.</strong></p><p><strong></strong></p><p><strong>3. A. kesimpulan umum</strong></p><p><strong></strong></p><p><strong>4. D. ruang/tempat</strong></p><p><strong></strong></p><p><strong>5. D. kebiasaan masyarakat sekitar</strong></p><p><strong></strong></p><p><strong>6. B. kondisi para korban hilang yang baru 2 hari bisa ditemukan</strong></p><p><strong></strong></p><p><strong>7. D. waktu wawancara</strong></p><p><strong></strong></p><p><strong>8. D. guru</strong></p><p><strong></strong></p><p><strong>9. B. saya sudah menjalani aktivitas sebagai prajurit sejak tahun 2013</strong></p><p><strong></strong></p><p><strong>10. A. kehilangan penglihatannya</strong></p><p><strong></strong></p><p><strong>11. D. daftar isi</strong></p><p><strong></strong></p><p><strong>12. D. bersikap tenang,khidmat dan membaca dengan keras, tetapi tidak berteriak agar peserta upacara mendengar</strong></p><p><strong></strong></p><p><strong>13. C. malam,udara sangat dingin, lebih dingin dari malam malam sebelumnya. suasana pun tampak sangat sepi, jam menunjukkan angka sepuluh malam</strong></p><p><strong></strong></p><p><strong>14. D. teks yang menjelaskan tentang jalan hidup seseorang</strong></p><p><strong></strong></p><p><strong>15. A. identifikasi dan deskripsi</strong></p><p><strong></strong></p><p><strong>Penjelasan:</strong></p><p><strong>maaf kalo lama soalnya aku perlu baca dan memahami soal. Dan semoga membantu</strong></p><p></p><p></p><br />
+                                            <h2 class="ez-toc-section" id="ppkn-kd-3-31-contoh-keberagaman-yang-ada-di-indonesia-adalah-a-suku-agama-dan-presidenb-suku-ras-dan-budayac-agama-negara-dan-keseniand-agama-negara-dan-presiden2-faktor-penyebab-keber">
+                            15. PPKn (KD 3.3)1. Contoh keberagaman yang ada di Indonesia adalah ....A. Suku, agama dan presidenB. Suku, ras dan budayaC. Agama, negara dan kesenianD. Agama, negara dan presiden2. Faktor penyebab keberagaman di Indonesia adalah ....A. Pernah dijajah selama ratusan tahunB. Pernah mengalami krisis ekonomiC. Kondisi negara Indonesia yang berbentuk kepulauanD. Kemajuan ilmu teknologi dan komunikasi3. Semboyan Persatuan Indonesia adalah ....A. Tut Wuri HandayaniB. Bhinneka Tunggal IkaC. Sumpah PalapaD. Garuda Pancasila4. Contoh musyawarah di kelas ....A. melakukan piket kelasB. memilih ketua kelasC. mengerjakan tugas mandiriD. mengerjakan ulangan dengan jujur5. Berikut ini yang termasuk keberagaman di bidangbudaya adalah ....A. Agama, bahasa dan rumah adatB. Pakaian, rumah adat dan makananC. Warna kulit, alat musik dan agamaD. Bahasa, rumah adat dan agamaBahasa Indonesia (KD 3.5)6. Penulisan nama kota dan tanggal surat yang benaradalah ....A. Jakarta; 16 Agustus 2018B. Jakarta. 16 Agustus 2018C. Jakarta: 16 Agustus 2018D. Jakarta, 16 Agustus 2018Baca teks berikut untuk menjawab soal no 7-9 !Pembacaan teks Proklamasi Kemerdekaan dilaksanakanpada hari Jum'at tanggal 17 Agustus 1945. Sejak pagi, telahdilakukan persiapan di rumah Ir. Soekarno, untuk menyambutProklamasi Kemerdekaan Indonesia. Banyak tokohpergerakan nasional beserta rakyat berkumpul di tempat itu.Mereka ingin menyaksikan pembacaan teks ProklamasiKemerdekaan Indonesia. Sesuai kesepakatan yang diambildi rumah Laksamana Maeda, para tokoh Indonesia menjelangpukul 10.30 Waktu Jawa Zaman Jepang atau pukul 10.00WIB telah berdatangan ke rumah Ir. Soekarno.7. Siapa yang membaca teks proklamasi....A. Ir. Soekarno.B. Moh. HattaC. SoepomoD. Laksamana Maeda​</h2><br />
+                        <p><strong>Jawaban:</strong></p><p>1.b</p><p>2.b</p><p>3b</p><p>4d</p><p>5c</p><p>6b</p><p>7a</p><p></p><p><strong>Penjelasan:</strong></p><p>maaf salah</p><p></p><br />
+                    
+                </div>
+                <div class="youtubeVideo" style="text-align: center">
+                    <h3>Video Terkait</h3>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/?controls=0" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+                </div>
+                <footer class="entry-meta" aria-label="Meta postingan">
+                    <span class="cat-links"><span class="gp-icon icon-categories"><svg viewBox="0 0 512 512"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em">
+                                <path
+                                    d="M0 112c0-26.51 21.49-48 48-48h110.014a48 48 0 0143.592 27.907l12.349 26.791A16 16 0 00228.486 128H464c26.51 0 48 21.49 48 48v224c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V112z">
+                                </path>
+                            </svg></span><span class="screen-reader-text">Kategori </span>ips</span>
+            </div>
+        </article>
+    </main>
+            </div>
+            <div class="widget-area sidebar is-right-sidebar" id="right-sidebar">
+                <div class="inside-right-sidebar">
+                    <aside id="categories-2" class="widget inner-padding widget_categories">
+                        <h2 class="widget-title">Topik</h2>
+                        <ul>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-struktur-pasar-beserta-jawabannya.html">Contoh Soal Struktur Pasar Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-trancformation-bahasa-inggris.html">Contoh Soal Trancformation Bahasa Inggris</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-fungsi-anggaran-beserta-jawabannya.html">Soal Fungsi Anggaran Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-dan-jawaban-akuntansi-perusahaan-jasa-tati-harapan.html">Soal Dan Jawaban Akuntansi Perusahaan Jasa Tati Harapan</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/kumpulan-soal-bahasa-indonesia-kelas-x-semester-1-beserta-jawabannya.html">Kumpulan Soal Bahasa Indonesia Kelas X Semester 1 Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-pilihan-ganda-akuntansi-perbankan-giro-dan-jawabannya.html">Contoh Soal Pilihan Ganda Akuntansi Perbankan Giro Dan Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-pilihan-ganda-tentang-hindu-budha-beserta-jawabannya.html">Soal Pilihan Ganda Tentang Hindu Budha Beserta Jawabannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-bahasa-inggris-pemula.html">Contoh Soal Bahasa Inggris Pemula</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-akuntansi-buku-besar.html">Soal Akuntansi Buku Besar</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-soal-pg-bahasa-indonesia-tentang-proposal.html">Soal Soal Pg Bahasa Indonesia Tentang Proposal</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/pembahasan-soal-un-bahasa-indonesia-smp-paket-2-2017.html">Pembahasan Soal Un Bahasa Indonesia Smp Paket 2 2017</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-ulangan-bahasa-indonesia-kelas-3-semester-2.html">Contoh Soal Ulangan Bahasa Indonesia Kelas 3 Semester 2</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-uas-pkn-sma-kelas-x-beserta-kunci-jawaban.html">Contoh Soal Uas Pkn Sma Kelas X Beserta Kunci Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-bahasa-indonesia-bab-notulen.html">Soal Bahasa Indonesia Bab Notulen</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-kimia-uas-sem-2-kelas-10-beserta-pembahasannya.html">Contoh Soal Kimia Uas Sem 2 Kelas 10 Beserta Pembahasannya</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-ujian-semester-2-kelas-5-sd-bahasa-inggris.html">Soal Ujian Semester 2 Kelas 5 Sd Bahasa Inggris</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/contoh-soal-post-test-pkp-bahasa-inggris.html">Contoh Soal Post Test Pkp Bahasa Inggris</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-bahasa-sunda-kelas-7-kurikulum-2013.html">Soal Bahasa Sunda Kelas 7 Kurikulum 2013</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-motor-starter-beserta-jawaban.html">Soal Motor Starter Beserta Jawaban</a>
+                                </li>
+                                                            <li class="cat-item cat-item-23"><a
+                                        href="https://zonabelajar.github.io/soal-bahasa-indonesia-k13-kelas-3.html">Soal Bahasa Indonesia K13 Kelas 3</a>
+                                </li>
+                                                    </ul>
+
+                    </aside>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="site-footer">
+        <footer class="site-info" aria-label="Situs" itemtype="https://schema.org/WPFooter" itemscope>
+            <div class="inside-site-info grid-container">
+                <div class="copyright-bar">
+                    <span class="copyright">&copy; 2023 <a href="https://zonabelajar.github.io"
+                            itemprop="url">BELAJAR</a></span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a title="Gulirkan kembali ke puncak laman" aria-label="Gulirkan kembali ke puncak laman" rel="nofollow"
+        href="#" class="generate-back-to-top" data-scroll-speed="400" data-start-scroll="300">
+        <span class="gp-icon icon-arrow-up"><svg viewBox="0 0 330 512" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill-rule="evenodd"
+                clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+                <path
+                    d="M305.863 314.916c0 2.266-1.133 4.815-2.832 6.514l-14.157 14.163c-1.699 1.7-3.964 2.832-6.513 2.832-2.265 0-4.813-1.133-6.512-2.832L164.572 224.276 53.295 335.593c-1.699 1.7-4.247 2.832-6.512 2.832-2.265 0-4.814-1.133-6.513-2.832L26.113 321.43c-1.699-1.7-2.831-4.248-2.831-6.514s1.132-4.816 2.831-6.515L158.06 176.408c1.699-1.7 4.247-2.833 6.512-2.833 2.265 0 4.814 1.133 6.513 2.833L303.03 308.4c1.7 1.7 2.832 4.249 2.832 6.515z"
+                    fill-rule="nonzero" />
+            </svg></span>
+    </a>
+    <script id="generate-a11y">
+        ! function() {
+            "use strict";
+            if ("querySelector" in document && "addEventListener" in window) {
+                var e = document.body;
+                e.addEventListener("mousedown", function() {
+                    e.classList.add("using-mouse")
+                }), e.addEventListener("keydown", function() {
+                    e.classList.remove("using-mouse")
+                })
+            }
+        }();
+    </script>
+    <!--[if lte IE 11]>
+<script src='https://zonabelajar.github.io/js/classList.min.js' ?ver=3.2.4' id='generate-classlist-js'></script>
+<![endif]-->
+    <script id='generate-menu-js-extra'>
+        var generatepressMenu = {
+            "toggleOpenedSubMenus": "1",
+            "openSubMenuLabel": "Buka Submenu",
+            "closeSubMenuLabel": "Tutup submenu"
+        };
+    </script>
+    <script src='https://zonabelajar.github.io/js/menu.min.js' ?ver=3.2.4' id='generate-menu-js'></script>
+    <script id='generate-navigation-search-js-extra'>
+        var generatepressNavSearch = {
+            "open": "Buka Kolom Pencarian",
+            "close": "Tutup Kolom Pencarian"
+        };
+    </script>
+    <script src='https://zonabelajar.github.io/js/navigation-search.min.js' ?ver=3.2.4' id='generate-navigation-search-js'></script>
+    <script id='generate-back-to-top-js-extra'>
+        var generatepressBackToTop = {
+            "smooth": "1"
+        };
+    </script>
+    <script src='https://zonabelajar.github.io/js/back-to-top.min.js' ?ver=3.2.4' id='generate-back-to-top-js'></script>
+<script type='text/javascript' src='//cloudlessmajesty.com/8d/be/84/8dbe84c54b7cc5b78aa0e0a1fbdbae07.js'></script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4777688,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4777688&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</body>
+
+</html>
